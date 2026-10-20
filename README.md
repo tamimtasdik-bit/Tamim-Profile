@@ -10,12 +10,14 @@ https://tamimtasdik-bit.github.io/Tamim-Profile/
 The preview uses `baseurl: /Tamim-Profile` so assets and internal links work correctly on the project Pages URL. Before connecting the production domain, change `url` to `https://lawfinitysolicitors.com`, set `baseurl` to an empty string, and replace the preview-only `robots.txt`.
 
 ## Design
-The site uses the **Yacht Club** palette:
-- `#F2F0EF` — paper
-- `#BBBCBC` — stone
-- `#245F73` — teal
-- `#733E24` — rust
+The site uses a formal **Midnight Navy / Warm Ivory / Antique Brass** palette:
+- `#172638` — midnight navy (header/footer)
+- `#29465A` — navy slate (buttons and links)
+- `#F8F6F1` — warm ivory (page background)
+- `#EDE9E0` — soft limestone (editorial sections)
+- `#806341` — antique brass (small accents)
 
+The original supplied Lady Justice logo is retained.
 ## Structure
 - Shared Jekyll header/footer
 - 8 private immigration service hubs
