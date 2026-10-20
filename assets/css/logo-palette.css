@@ -1,0 +1,54 @@
+/* Lawfinity's own Lady Justice marks: charcoal, warm ivory, bronze and stone.
+   This layer intentionally keeps the approved site structure intact. */
+:root{
+ --ivory:#F8EFE5;
+ --white:#FFFCF8;
+ --teal:#272421;
+ --dark:#24201D;
+ --deep:#171513;
+ --rust:#836548;
+ --ink:#2A2623;
+ --muted:#6D655F;
+ --stone:#B8ADA3;
+ --line:#DCD0C4;
+ --line-dark:rgba(248,239,229,.2);
+}
+body{background:var(--ivory);color:var(--ink)}
+.ls-header{background:#FFFCF8;border-color:var(--line)}
+.ls-topbar{background:var(--deep)}
+.ls-topbar-inner{color:#F8EFE5}
+.ls-brand{background:#F8EFE5}
+.ls-brand img{filter:none}
+.ls-phone-cta,.btn-primary,.ls-button{background:var(--deep);border-color:var(--deep);color:#F8EFE5}
+.ls-phone-cta:hover,.btn-primary:hover,.ls-button:hover{background:var(--rust);border-color:var(--rust);color:#fff}
+.ls-button-light{background:var(--ivory);border-color:var(--ivory);color:var(--deep)}
+.ls-button-light:hover{background:#fff;color:var(--deep)}
+.ls-home h1,.ls-home h2,.ls-home h3,.page-hero h1,.prose h2,.prose h3{color:var(--dark)}
+.ls-eyebrow,.eyebrow,.ls-service-number,.card-index{color:var(--rust)!important}
+.ls-hero{background:#FFFCF8}
+.ls-hero-media{background:var(--deep)}
+.ls-hero-fallback{background:linear-gradient(145deg,#34302c,#151311)}
+.ls-trustband{background:var(--deep);color:#F8EFE5}
+.ls-about-preview,.ls-values,.page-hero{background:var(--ivory)}
+.ls-services,.page-section,.related-section{background:var(--white)}
+.ls-service-grid article,.info-card,.blog-card,.post-card{background:var(--white);border-color:var(--line)}
+.ls-service-grid article:hover{border-color:var(--rust)}
+.ls-text-link,.text-link,.prose a{color:var(--rust)}
+.ls-text-link:hover,.text-link:hover,.prose a:hover{color:var(--deep)}
+.ls-ticks li:before{color:var(--rust)}
+.ls-contact-banner{background:var(--deep)}
+.ls-contact-banner .ls-eyebrow{color:#D4B69A!important}
+.ls-footer{background:var(--deep);color:#F8EFE5}
+.ls-footer-brand{background:#F8EFE5}
+.ls-footer-grid h2{color:#F8EFE5}
+.ls-footer-base{background:#0D0C0B}
+.ls-sra-shield{background:var(--ivory);color:var(--deep)}
+.ls-regulatory-verification .ls-sra-register:hover{background:rgba(248,239,229,.1)}
+.ls-mega,.ls-resource-menu,.ls-mobile{background:var(--white)}
+.ls-mega strong,.nav-mega small{color:var(--rust)}
+.ls-desktop>a:hover,.ls-dropdown summary:hover,.ls-resource-menu a:hover,.ls-mega a:hover{color:var(--rust)}
+.ls-values .ls-value-list strong{color:var(--dark)}
+.aside-card,.feature-box{background:var(--ivory);border-color:var(--line)}
+.service-card,.info-card{box-shadow:none}
+::selection{background:#D3BCA2;color:var(--deep)}
+@media(max-width:640px){.ls-brand{background:#F8EFE5}}
