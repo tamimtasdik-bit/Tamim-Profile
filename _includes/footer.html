@@ -1,0 +1,58 @@
+<footer class="site-footer">
+  <div class="container footer-main">
+    <div class="footer-about">
+      <a class="brand footer-brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-copy">Lawfinity <b>Solicitors</b></span>
+      </a>
+      <p>SRA-regulated UK immigration solicitors advising individuals and businesses with clear, strategic and personalised legal support.</p>
+      <p class="footer-contact">
+        {{ site.firm.address }}<br>
+        <a href="tel:{{ site.firm.phone_link }}">{{ site.firm.phone_display }}</a><br>
+        <a href="mailto:{{ site.firm.email }}">{{ site.firm.email }}</a>
+      </p>
+      <div class="sra-badge">
+        <iframe src="https://cdn.yoshki.com/iframe/55845r.html" title="Solicitors Regulation Authority digital badge" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="footer-heading">Important Services</h2>
+      <ul class="footer-links">
+        <li><a href="{{ '/spouse-visa/' | relative_url }}">Spouse Visa</a></li>
+        <li><a href="{{ '/student-visa/' | relative_url }}">Student Visa</a></li>
+        <li><a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; Work Visas</a></li>
+        <li><a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; Citizenship</a></li>
+        <li><a href="{{ '/humanitarian-asylum/' | relative_url }}">Humanitarian &amp; Asylum</a></li>
+        <li><a href="{{ '/power-of-attorney/' | relative_url }}">Power of Attorney</a></li>
+        <li><a href="{{ '/travel-authorisation/' | relative_url }}">Travel Authorisation</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="footer-heading">Policies</h2>
+      <ul class="footer-links">
+        <li><a href="{{ '/complaint-handling-policy/' | relative_url }}">Complaint Handling Policy</a></li>
+        <li><a href="{{ '/data-protection-policy/' | relative_url }}">Data Protection Policy</a></li>
+        <li><a href="{{ '/equality-and-diversity-and-vulnerable-clients-policy/' | relative_url }}">Equality, Diversity &amp; Vulnerable Clients</a></li>
+        <li><a href="{{ '/fee-scale/' | relative_url }}">Fee Scale</a></li>
+        <li><a href="{{ '/gdpr-policy/' | relative_url }}">GDPR Policy</a></li>
+        <li><a href="{{ '/online-review-policy/' | relative_url }}">Online Review Policy</a></li>
+        <li><a href="{{ '/website-terms-of-use/' | relative_url }}">Website Terms of Use</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container regulatory-line">
+    <p>{{ site.firm.legal_name }} trading as Lawfinity Solicitors. Authorised and regulated by the Solicitors Regulation Authority, SRA no. {{ site.firm.sra_number }}. Company no. {{ site.firm.company_number }}.</p>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© <span data-current-year></span> Lawfinity Solicitors. All rights reserved.</span>
+    <span>
+      <a href="{{ '/website-terms-of-use/' | relative_url }}">Terms &amp; Conditions</a>
+      <a href="{{ '/gdpr-policy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
+    </span>
+  </div>
+</footer>
