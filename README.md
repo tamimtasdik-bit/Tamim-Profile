@@ -46,3 +46,11 @@ Firm details used in the build:
 - info@lawfinitysolicitors.com
 - SRA no. 8008876
 - Company no. 15588850
+
+
+## AI-generated homepage photography
+The homepage now uses two AI-generated, people-free images stored locally:
+- `assets/images/ai-lawfinity-hero.webp` — elegant Westminster-inspired legal office
+- `assets/images/ai-lawfinity-library.webp` — unoccupied law library and consultation space
+
+These are **conceptual illustrations**, not photographs of Lawfinity Solicitors' actual offices, lawyers or clientele. Public captions make this distinction clear.
