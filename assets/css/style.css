@@ -454,3 +454,84 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #80
  .premium-header .brand{width:228px!important}
  .premium-header .masthead{height:126px}
 }
+
+
+
+/* Brand visibility: preserve original two-colour Lady Justice logo on ivory.
+   Dark navy medallion sits behind the white illustration; original black wordmark
+   remains on the ivory surface. No recolouring, duplicate art or overlay masks. */
+.premium-header{
+  background:#F8F6F1!important;
+  color:#192B3A!important;
+}
+.premium-header .masthead{
+  background:#F8F6F1!important;
+}
+.premium-header .masthead-kicker{
+  color:#4F5962!important;
+}
+.premium-header .masthead-phone{
+  color:#4F5962!important;
+}
+.premium-header .masthead-phone span{
+  color:#192B3A!important;
+}
+.premium-header .mobile-toggle{
+  color:#192B3A!important;
+}
+.premium-header .hamburger i{
+  background:#192B3A!important;
+}
+.premium-header .desktop-nav-band{
+  background:#172638!important;
+  color:#fff!important;
+}
+.premium-header .mobile-navigation{
+  background:#172638!important;
+}
+.premium-header .official-logo,
+.premium-footer .official-logo{
+  position:relative;
+  isolation:isolate;
+  aspect-ratio:380/175!important;
+  background:radial-gradient(
+    ellipse 17.5% 35% at 50% 41%,
+    #172638 0%,
+    #172638 99%,
+    transparent 100%
+  ),#F8F6F1!important;
+}
+.premium-header .official-logo img,
+.premium-footer .official-logo img{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+  filter:none!important;
+}
+.premium-header .official-logo .logo-contrast,
+.premium-footer .official-logo .logo-contrast{
+  display:none!important;
+}
+.premium-header .official-logo::after,
+.premium-footer .official-logo::after{
+  content:none!important;
+  display:none!important;
+}
+.premium-footer .footer-logo{
+  width:245px!important;
+  background-color:#F8F6F1!important;
+}
+@media(max-width:680px){
+  .premium-header .brand{
+    width:260px!important;
+  }
+  .premium-footer .footer-logo{
+    width:245px!important;
+  }
+}
+@media(max-width:360px){
+  .premium-header .brand{
+    width:228px!important;
+  }
+}
