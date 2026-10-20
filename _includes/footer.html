@@ -35,7 +35,24 @@
       <p>Lawfinity Solicitors Limited, trading as Lawfinity Solicitors. Authorised and regulated by the Solicitors Regulation Authority. SRA number {{ site.firm.sra_number }}.</p>
       <p>Company number {{ site.firm.company_number }}. The GitHub Pages website is a development preview; the existing WordPress site remains the live website.</p>
     </div>
-    <iframe src="https://cdn.yoshki.com/iframe/55845r.html" title="Solicitors Regulation Authority digital badge" loading="lazy" scrolling="no"></iframe>
+    <div class="ls-regulatory-verification">
+      {% if site.url == 'https://lawfinitysolicitors.com' or site.url == 'https://www.lawfinitysolicitors.com' %}
+      <!-- Official SRA Digital Badge: rendered only on the registered production domain. -->
+      <!-- Start of SRA Digital Badge code -->
+      <div class="sra-digital-badge" style="max-width:275px;max-height:163px;">
+        <div style="position:relative;padding-bottom:59.1%;height:auto;overflow:hidden;">
+          <iframe title="Official SRA Digital Badge — click to verify this firm's status" frameborder="0" scrolling="no" allowtransparency="true"
+            src="https://cdn.yoshki.com/iframe/55845r.html"
+            style="border:0;margin:0;padding:0;background-color:transparent;top:0;left:0;width:100%;height:100%;position:absolute;"></iframe>
+        </div>
+      </div>
+      <!-- End of SRA Digital Badge code -->
+      {% endif %}
+      <a class="ls-sra-register" href="https://www.sra.org.uk/consumers/register/organisation/?sraNumber=8008876" target="_blank" rel="noopener noreferrer">
+        <span class="ls-sra-shield" aria-hidden="true">✓</span>
+        <span><strong>Verify Lawfinity Solicitors</strong><small>Official SRA Register · SRA no. {{ site.firm.sra_number }} ↗</small></span>
+      </a>
+    </div>
   </div>
   <div class="ls-footer-base"><div class="container">
     <span>© <span data-current-year>2026</span> Lawfinity Solicitors.</span>
