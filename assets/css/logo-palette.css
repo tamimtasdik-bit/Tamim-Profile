@@ -52,3 +52,11 @@ body{background:var(--ivory);color:var(--ink)}
 .service-card,.info-card{box-shadow:none}
 ::selection{background:#D3BCA2;color:var(--deep)}
 @media(max-width:640px){.ls-brand{background:#F8EFE5}}
+
+/* Contact panel: ensure the dark background has readable light typography.
+   The homepage's general dark heading rule otherwise wins the cascade. */
+.ls-home .ls-contact-banner h2{color:#FFFDF8}
+.ls-home .ls-contact-banner .ls-contact-row p:not(.ls-eyebrow){color:#E6DED5}
+.ls-home .ls-contact-banner .ls-eyebrow{color:#D7B897!important}
+.ls-home .ls-contact-banner .ls-button-light{background:#F8EFE5;color:#171513;border-color:#F8EFE5}
+.ls-home .ls-contact-banner .ls-button-light:hover{background:#FFFFFF;color:#171513;border-color:#FFFFFF}
