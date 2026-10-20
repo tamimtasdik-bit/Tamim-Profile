@@ -1,37 +1,44 @@
-<footer class="site-footer premium-footer">
-  <div class="container footer-main">
-    <div class="footer-brand-block">
-      <a class="footer-logo official-logo" href="{{ '/' | relative_url }}" aria-label="Lawfinity Solicitors home">
-        <img src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="Lawfinity Solicitors" width="938" height="347" loading="lazy">
-        <img class="logo-contrast" src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="" aria-hidden="true" width="938" height="347" loading="lazy">
-      </a>
-      <p>Immigration law, with clarity and conviction.</p>
+<footer class="site-footer ls-footer">
+  <div class="container ls-footer-grid">
+    <div class="ls-footer-about">
+      <a class="ls-footer-brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/brand/lawfinity-wordmark.webp' | relative_url }}" alt="Lawfinity Solicitors" width="875" height="875" loading="lazy"></a>
+      <p>Specialist UK immigration advice for individuals, families and businesses.</p>
+      <address>
+        71–75 Shelton Street, Covent Garden<br>London WC2H 9JQ
+      </address>
+      <a href="tel:{{ site.firm.phone_link }}">{{ site.firm.phone_display }}</a>
+      <a href="mailto:{{ site.firm.email }}">{{ site.firm.email }}</a>
     </div>
-    <div class="footer-links-group">
-      <div class="footer-column"><h2>Explore</h2>
-        <a href="{{ '/about/' | relative_url }}">Our firm</a>
-        <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Corporate immigration</a>
-        <a href="{{ '/family-immigration/' | relative_url }}">Personal immigration</a>
-        <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews</a>
-      </div>
-      <div class="footer-column"><h2>Contact</h2>
-        <a href="tel:{{ site.firm.phone_link }}">{{ site.firm.phone_display }}</a>
-        <a href="mailto:{{ site.firm.email }}">{{ site.firm.email }}</a>
-        <address>71–75 Shelton Street<br>Covent Garden, London WC2H 9JQ</address>
-      </div>
+    <div>
+      <h2>Important services</h2>
+      <a href="{{ '/spouse-visa/' | relative_url }}">Spouse Visa</a>
+      <a href="{{ '/student-visa/' | relative_url }}">Student Visa</a>
+      <a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; Work Visas</a>
+      <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; Citizenship</a>
+      <a href="{{ '/humanitarian-asylum/' | relative_url }}">Humanitarian &amp; Asylum</a>
+      <a href="{{ '/power-of-attorney/' | relative_url }}">Power of Attorney</a>
+      <a href="{{ '/travel-authorisation/' | relative_url }}">Travel Authorisation</a>
+    </div>
+    <div>
+      <h2>Policies</h2>
+      <a href="https://lawfinitysolicitors.com/complaint-handling-policy/">Complaint Handling Policy</a>
+      <a href="https://lawfinitysolicitors.com/data-protection-policy/">Data Protection Policy</a>
+      <a href="https://lawfinitysolicitors.com/equality-and-diversity-and-vulnerable-clients-policy/">Equality, Diversity &amp; Vulnerable Clients</a>
+      <a href="https://lawfinitysolicitors.com/fee-scale/">Fee Scale</a>
+      <a href="https://lawfinitysolicitors.com/gdpr-policy/">GDPR Policy</a>
+      <a href="https://lawfinitysolicitors.com/online-review-policy/">Online Review Policy</a>
+      <a href="https://lawfinitysolicitors.com/website-terms-of-use/">Website Terms of Use</a>
     </div>
   </div>
-  <div class="container footer-regulatory">
-    <p>Lawfinity Solicitors Limited, trading as Lawfinity Solicitors. Authorised and regulated by the Solicitors Regulation Authority (SRA no. {{ site.firm.sra_number }}). Company no. {{ site.firm.company_number }}.</p>
-    <div class="sra-badge"><iframe src="https://cdn.yoshki.com/iframe/55845r.html" title="Solicitors Regulation Authority digital badge" loading="lazy" scrolling="no"></iframe></div>
-  </div>
-  <div class="footer-base"><div class="container">
-    <span>© <span data-current-year>2026</span> Lawfinity Solicitors</span>
-    <div class="footer-policies">
-      <a href="{{ '/complaint-handling-policy/' | relative_url }}">Complaints</a>
-      <a href="{{ '/fee-scale/' | relative_url }}">Fees</a>
-      <a href="{{ '/gdpr-policy/' | relative_url }}">Privacy</a>
-      <a href="{{ '/website-terms-of-use/' | relative_url }}">Terms</a>
+  <div class="container ls-regulation">
+    <div>
+      <p>Lawfinity Solicitors Limited, trading as Lawfinity Solicitors. Authorised and regulated by the Solicitors Regulation Authority. SRA number {{ site.firm.sra_number }}.</p>
+      <p>Company number {{ site.firm.company_number }}. The GitHub Pages website is a development preview; the existing WordPress site remains the live website.</p>
     </div>
+    <iframe src="https://cdn.yoshki.com/iframe/55845r.html" title="Solicitors Regulation Authority digital badge" loading="lazy" scrolling="no"></iframe>
+  </div>
+  <div class="ls-footer-base"><div class="container">
+    <span>© <span data-current-year>2026</span> Lawfinity Solicitors.</span>
+    <div><a href="https://lawfinitysolicitors.com/gdpr-policy/">Privacy</a><a href="https://lawfinitysolicitors.com/website-terms-of-use/">Terms</a><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a></div>
   </div></div>
 </footer>
