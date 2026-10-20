@@ -1,51 +1,62 @@
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="nav-shell container">
+<header class="site-header premium-header">
+  <div class="masthead container">
+    <span class="masthead-kicker">SPECIALIST UK IMMIGRATION LAW</span>
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="Lawfinity Solicitors home">
-      <img src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="Lawfinity Solicitors" width="938" height="347">
+      <span class="official-logo">
+        <img src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="Lawfinity Solicitors — Aequitas, Iustitia" width="938" height="347">
+        <img class="logo-contrast" src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="" aria-hidden="true" width="938" height="347">
+      </span>
     </a>
-    <nav class="primary-nav" aria-label="Main navigation">
-      <a href="{{ '/about/' | relative_url }}">Our firm</a>
-      <details class="nav-menu">
-        <summary>Expertise <span aria-hidden="true">⌄</span></summary>
-        <div class="nav-mega">
-          <div><small>For businesses</small>
-            <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Sponsor licences &amp; compliance</a>
-            <a href="{{ '/sponsorship-management-system/' | relative_url }}">Sponsorship management</a>
-            <a href="{{ '/sponsor-licence-suspension-and-revocation/' | relative_url }}">Licence suspension &amp; revocation</a>
-            <a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; work visas</a>
+    <a class="masthead-phone" href="tel:{{ site.firm.phone_link }}">Call us <span>{{ site.firm.phone_display }}</span></a>
+    <button class="mobile-toggle" type="button" aria-controls="mobile-navigation" aria-expanded="false" aria-label="Open navigation">
+      <span>Menu</span><span class="hamburger" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+  <div class="desktop-nav-band">
+    <div class="container nav-band-inner">
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="{{ '/about/' | relative_url }}">The firm</a>
+        <details class="nav-menu">
+          <summary>Our expertise <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-mega">
+            <div>
+              <small>For business</small>
+              <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Sponsor licences &amp; compliance</a>
+              <a href="{{ '/sponsorship-management-system/' | relative_url }}">Sponsorship management</a>
+              <a href="{{ '/sponsor-licence-suspension-and-revocation/' | relative_url }}">Suspension &amp; revocation</a>
+              <a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; work visas</a>
+            </div>
+            <div>
+              <small>For individuals</small>
+              <a href="{{ '/family-immigration/' | relative_url }}">Family immigration</a>
+              <a href="{{ '/study-visa/' | relative_url }}">Study visas</a>
+              <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; citizenship</a>
+              <a href="{{ '/eu-settlement-status/' | relative_url }}">EU Settlement Scheme</a>
+            </div>
+            <div>
+              <small>Challenges &amp; further services</small>
+              <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews</a>
+              <a href="{{ '/judicial-review/' | relative_url }}">Judicial review</a>
+              <a href="{{ '/humanitarian-asylum/' | relative_url }}">Humanitarian &amp; asylum</a>
+              <a href="{{ '/power-of-attorney/' | relative_url }}">Commissioner for Oaths</a>
+            </div>
           </div>
-          <div><small>For individuals</small>
-            <a href="{{ '/family-immigration/' | relative_url }}">Family immigration</a>
-            <a href="{{ '/study-visa/' | relative_url }}">Study visas</a>
-            <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; citizenship</a>
-            <a href="{{ '/eu-settlement-status/' | relative_url }}">EU Settlement Scheme</a>
-          </div>
-          <div><small>Complex matters</small>
-            <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews</a>
-            <a href="{{ '/judicial-review/' | relative_url }}">Judicial review</a>
-            <a href="{{ '/humanitarian-asylum/' | relative_url }}">Asylum &amp; human rights</a>
-            <a href="{{ '/other-immigration-services/' | relative_url }}">Other immigration services</a>
-          </div>
-          <div><small>Further services</small>
-            <a href="{{ '/power-of-attorney/' | relative_url }}">Power of attorney</a>
-            <a href="{{ '/document-legalisation-and-certification/' | relative_url }}">Document certification</a>
-            <a href="{{ '/affidavits-and-statutory-declarations-at-lawfinity-solicitors/' | relative_url }}">Affidavits &amp; declarations</a>
-            <a href="{{ '/travel-authorisation/' | relative_url }}">Travel authorisation</a>
-          </div>
-        </div>
-      </details>
-      <a href="{{ '/blogs/' | relative_url }}">Insights</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
-    <a class="nav-cta" href="{{ '/contact/' | relative_url }}">Make an enquiry <span aria-hidden="true">↗</span></a>
-    <button class="mobile-toggle" type="button" aria-controls="mobile-navigation" aria-expanded="false"><span>Menu</span><span class="hamburger" aria-hidden="true"><i></i><i></i></span></button>
+        </details>
+        <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">For business</a>
+        <a href="{{ '/family-immigration/' | relative_url }}">For individuals</a>
+        <a href="{{ '/blogs/' | relative_url }}">Insights</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      </nav>
+      <a class="nav-cta" href="{{ '/contact/' | relative_url }}">Arrange a consultation <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
   <nav class="mobile-navigation" id="mobile-navigation" hidden aria-label="Mobile navigation">
-    <a href="{{ '/about/' | relative_url }}">Our firm</a>
-    <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Corporate immigration</a>
-    <a href="{{ '/family-immigration/' | relative_url }}">Private immigration</a>
+    <a href="{{ '/about/' | relative_url }}">The firm</a>
+    <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">For business</a>
+    <a href="{{ '/family-immigration/' | relative_url }}">For individuals</a>
     <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews</a>
+    <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; citizenship</a>
     <a href="{{ '/power-of-attorney/' | relative_url }}">Commissioner for Oaths</a>
     <a href="{{ '/blogs/' | relative_url }}">Insights</a>
     <a href="{{ '/contact/' | relative_url }}">Contact</a>
