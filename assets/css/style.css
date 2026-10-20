@@ -391,3 +391,28 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #b7
 .premium-footer .footer-base .container{flex-wrap:wrap;gap:10px}
 .premium-footer .footer-policies{gap:17px}
 }
+
+
+/* Resilient hero: the complete artwork renders even when remote photography cannot load. */
+.hero-photo{isolation:isolate;background:linear-gradient(155deg,#316778 0%,#183d4c 55%,#092733 100%)!important}
+.hero-architecture{position:absolute;inset:0;z-index:0;overflow:hidden;color:#e1ebeb;background:radial-gradient(ellipse at 78% 10%,rgba(186,132,93,.21),transparent 42%)}
+.architecture-caption{position:absolute;top:11%;left:11%;font:700 11px/1.3 var(--display);letter-spacing:.25em;color:#c3dadd}
+.architecture-rule{position:absolute;top:35%;left:10%;right:0;height:1px;background:rgba(240,248,246,.24)}
+.architecture-arches{position:absolute;bottom:17%;left:11%;right:-14%;height:50%;display:flex;gap:3%;opacity:.82;align-items:stretch}
+.architecture-arches i{display:block;position:relative;flex:1;border:2px solid rgba(217,235,233,.58);border-bottom:0;border-radius:120px 120px 0 0}
+.architecture-arches i:before{content:"";position:absolute;inset:14% 20% 0;border:1px solid rgba(222,238,238,.32);border-bottom:none;border-radius:100px 100px 0 0}
+.architecture-arches i:nth-child(even){transform:translateY(12%)}
+.architecture-signature{position:absolute;left:11%;right:8%;bottom:6%;display:flex;align-items:end;justify-content:space-between;gap:20px}
+.architecture-signature span{font:400 clamp(23px,2.45vw,42px)/1.1 Georgia,serif;letter-spacing:.035em;color:#f0efea}
+.architecture-signature small{font:700 9px var(--display);letter-spacing:.16em;color:#b4d2d8;max-width:130px;text-align:right}
+.hero-photo>img{z-index:1;transition:opacity .25s ease}
+.hero-photo>img[hidden],.hero-photo.image-failed>img{display:none!important}
+.hero-photo-shade{z-index:2}
+.hero-photo .photo-credit{z-index:3}
+.hero-photo.image-failed .photo-credit{display:none!important}
+@media(max-width:700px){
+  .architecture-caption{font-size:9px;top:9%}
+  .architecture-arches{height:53%;bottom:20%}
+  .architecture-signature span{font-size:25px}
+  .architecture-signature small{font-size:8px}
+}
