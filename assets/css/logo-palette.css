@@ -234,3 +234,48 @@ body{color-scheme:light}
   .ls-header .ls-brand{width:182px;flex-basis:182px}
   .ls-header .ls-brand img{max-height:78px}
 }
+
+
+/* Mobile menu — high-contrast charcoal button on the ivory masthead */
+.ls-header .ls-nav button.ls-menu-toggle{
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  min-height:48px;
+  padding:11px 19px;
+  margin-left:auto;
+  border:1px solid #272421;
+  border-radius:5px;
+  background:#272421;
+  color:#F8EFE5;
+  font-size:15px;
+  line-height:1.2;
+  font-weight:750;
+  letter-spacing:.01em;
+  box-shadow:0 2px 5px rgba(39,36,33,.13);
+  cursor:pointer;
+  transition:background-color .2s ease,border-color .2s ease,box-shadow .2s ease;
+}
+.ls-header .ls-nav button.ls-menu-toggle span{
+  color:inherit;
+  font-size:20px;
+  line-height:1;
+}
+.ls-header .ls-nav button.ls-menu-toggle:hover,
+.ls-header .ls-nav button.ls-menu-toggle[aria-expanded="true"]{
+  background:#795839;
+  border-color:#795839;
+  color:#F8EFE5;
+}
+.ls-header .ls-nav button.ls-menu-toggle:focus-visible{
+  outline:3px solid #795839;
+  outline-offset:3px;
+}
+@media(max-width:640px){
+  .ls-header .ls-nav button.ls-menu-toggle{
+    min-height:44px;
+    padding:10px 16px;
+    font-size:14px;
+    gap:10px;
+  }
+}
