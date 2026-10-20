@@ -1,22 +1,23 @@
 (() => {
-  const toggle = document.querySelector('.menu-toggle');
-  const panel = document.querySelector('#mobile-panel');
-  if (toggle && panel) {
+  const toggle = document.querySelector('.mobile-toggle');
+  const mobile = document.querySelector('#mobile-navigation');
+  if (toggle && mobile) {
     toggle.addEventListener('click', () => {
-      const open = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', String(!open));
-      panel.hidden = open;
-      document.body.classList.toggle('menu-open', !open);
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+      mobile.hidden = isOpen;
     });
   }
-
-  document.querySelectorAll('[data-current-year]').forEach((el) => {
-    el.textContent = new Date().getFullYear();
-  });
-
-  document.addEventListener('click', (event) => {
-    document.querySelectorAll('.desktop-nav details[open]').forEach((detail) => {
-      if (!detail.contains(event.target)) detail.removeAttribute('open');
+  document.addEventListener('click', event => {
+    document.querySelectorAll('.nav-menu[open]').forEach(menu => {
+      if (!menu.contains(event.target)) menu.removeAttribute('open');
     });
   });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      document.querySelectorAll('.nav-menu[open]').forEach(menu => menu.removeAttribute('open'));
+      if (toggle && mobile) { toggle.setAttribute('aria-expanded', 'false'); mobile.hidden = true; }
+    }
+  });
+  document.querySelectorAll('[data-current-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
 })();

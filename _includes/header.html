@@ -1,91 +1,54 @@
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
-  <div class="container header-inner">
+  <div class="nav-shell container">
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="Lawfinity Solicitors home">
-      <span class="brand-mark" aria-hidden="true">L</span>
-      <span class="brand-copy">Lawfinity <b>Solicitors</b></span>
+      <img src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="Lawfinity Solicitors" width="938" height="347">
     </a>
-
-    <nav class="desktop-nav" aria-label="Primary navigation">
-      <a href="{{ '/about/' | relative_url }}">About</a>
-
-      <details class="nav-dropdown">
-        <summary>Services <span aria-hidden="true">⌄</span></summary>
-        <div class="mega-menu">
-          <div>
-            <p class="menu-label">Private immigration</p>
-            <a href="{{ '/family-immigration/' | relative_url }}">Family Immigration</a>
-            <a href="{{ '/study-visa/' | relative_url }}">Study Visas</a>
-            <a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; Work Visas</a>
-            <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; Citizenship</a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="{{ '/about/' | relative_url }}">Our firm</a>
+      <details class="nav-menu">
+        <summary>Expertise <span aria-hidden="true">⌄</span></summary>
+        <div class="nav-mega">
+          <div><small>For businesses</small>
+            <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Sponsor licences &amp; compliance</a>
+            <a href="{{ '/sponsorship-management-system/' | relative_url }}">Sponsorship management</a>
+            <a href="{{ '/sponsor-licence-suspension-and-revocation/' | relative_url }}">Licence suspension &amp; revocation</a>
+            <a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; work visas</a>
           </div>
-          <div>
-            <p class="menu-label">Private immigration</p>
-            <a href="{{ '/humanitarian-asylum/' | relative_url }}">Humanitarian &amp; Asylum</a>
-            <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; Reviews</a>
-            <a href="{{ '/eu-settlement-status/' | relative_url }}">EU Settlement Status</a>
-            <a href="{{ '/other-immigration-services/' | relative_url }}">Other Immigration Services</a>
+          <div><small>For individuals</small>
+            <a href="{{ '/family-immigration/' | relative_url }}">Family immigration</a>
+            <a href="{{ '/study-visa/' | relative_url }}">Study visas</a>
+            <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; citizenship</a>
+            <a href="{{ '/eu-settlement-status/' | relative_url }}">EU Settlement Scheme</a>
           </div>
-          <div>
-            <p class="menu-label">Corporate immigration</p>
-            <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Sponsor Licence &amp; Compliance</a>
-            <a href="{{ '/sponsorship-management-system/' | relative_url }}">SMS Maintenance</a>
-            <a href="{{ '/sponsor-licence-suspension-and-revocation/' | relative_url }}">Suspension &amp; Revocation</a>
-            <a href="{{ '/additional-business-support/' | relative_url }}">Business Support</a>
+          <div><small>Complex matters</small>
+            <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews</a>
+            <a href="{{ '/judicial-review/' | relative_url }}">Judicial review</a>
+            <a href="{{ '/humanitarian-asylum/' | relative_url }}">Asylum &amp; human rights</a>
+            <a href="{{ '/other-immigration-services/' | relative_url }}">Other immigration services</a>
           </div>
-          <div>
-            <p class="menu-label">Commissioner for Oaths</p>
-            <a href="{{ '/affidavits-and-statutory-declarations-at-lawfinity-solicitors/' | relative_url }}">Affidavits &amp; Statutory Declarations</a>
-            <a href="{{ '/deed-poll/' | relative_url }}">Deed Poll</a>
-            <a href="{{ '/document-legalisation-and-certification/' | relative_url }}">Legalisation &amp; Certification</a>
-            <a href="{{ '/power-of-attorney/' | relative_url }}">Power of Attorney</a>
-            <a href="{{ '/travel-authorisation/' | relative_url }}">Travel Authorisation</a>
+          <div><small>Further services</small>
+            <a href="{{ '/power-of-attorney/' | relative_url }}">Power of attorney</a>
+            <a href="{{ '/document-legalisation-and-certification/' | relative_url }}">Document certification</a>
+            <a href="{{ '/affidavits-and-statutory-declarations-at-lawfinity-solicitors/' | relative_url }}">Affidavits &amp; declarations</a>
+            <a href="{{ '/travel-authorisation/' | relative_url }}">Travel authorisation</a>
           </div>
         </div>
       </details>
-
-      <details class="nav-dropdown compact-dropdown">
-        <summary>Resources <span aria-hidden="true">⌄</span></summary>
-        <div class="small-menu">
-          <a href="{{ '/blogs/' | relative_url }}">Blogs</a>
-          <a href="{{ '/coming-soon/' | relative_url }}">FAQs</a>
-        </div>
-      </details>
-
+      <a href="{{ '/blogs/' | relative_url }}">Insights</a>
       <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
-
-    <a class="btn btn-primary header-call" href="tel:{{ site.firm.phone_link }}">Call Us For Consultation</a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-panel">Menu</button>
+    <a class="nav-cta" href="{{ '/contact/' | relative_url }}">Make an enquiry <span aria-hidden="true">↗</span></a>
+    <button class="mobile-toggle" type="button" aria-controls="mobile-navigation" aria-expanded="false"><span>Menu</span><span class="hamburger" aria-hidden="true"><i></i><i></i></span></button>
   </div>
-
-  <div class="mobile-panel" id="mobile-panel" hidden>
-    <div class="mobile-panel-inner container">
-      <div class="mobile-intro">
-        <strong>Lawfinity Solicitors</strong>
-        <p>SRA-regulated UK immigration law firm advising individuals and businesses.</p>
-      </div>
-      <nav class="mobile-links" aria-label="Mobile navigation">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/family-immigration/' | relative_url }}">Family Immigration</a>
-        <a href="{{ '/study-visa/' | relative_url }}">Study Visas</a>
-        <a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; Work Visas</a>
-        <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; Citizenship</a>
-        <a href="{{ '/humanitarian-asylum/' | relative_url }}">Humanitarian &amp; Asylum</a>
-        <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; Reviews</a>
-        <a href="{{ '/eu-settlement-status/' | relative_url }}">EU Settlement Status</a>
-        <a href="{{ '/other-immigration-services/' | relative_url }}">Other Immigration Services</a>
-        <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Corporate Immigration</a>
-        <a href="{{ '/power-of-attorney/' | relative_url }}">Commissioner for Oaths</a>
-        <a href="{{ '/blogs/' | relative_url }}">Blogs</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-      </nav>
-      <div class="mobile-contact">
-        <a href="tel:{{ site.firm.phone_link }}">{{ site.firm.phone_display }}</a>
-        <a href="mailto:{{ site.firm.email }}">{{ site.firm.email }}</a>
-        <span>{{ site.firm.address }}</span>
-      </div>
-      <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Book a Consultation</a>
-    </div>
-  </div>
+  <nav class="mobile-navigation" id="mobile-navigation" hidden aria-label="Mobile navigation">
+    <a href="{{ '/about/' | relative_url }}">Our firm</a>
+    <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Corporate immigration</a>
+    <a href="{{ '/family-immigration/' | relative_url }}">Private immigration</a>
+    <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews</a>
+    <a href="{{ '/power-of-attorney/' | relative_url }}">Commissioner for Oaths</a>
+    <a href="{{ '/blogs/' | relative_url }}">Insights</a>
+    <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    <a class="mobile-call" href="tel:{{ site.firm.phone_link }}">Call {{ site.firm.phone_display }}</a>
+  </nav>
 </header>

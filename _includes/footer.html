@@ -1,58 +1,44 @@
 <footer class="site-footer">
-  <div class="container footer-main">
-    <div class="footer-about">
-      <a class="brand footer-brand" href="{{ '/' | relative_url }}">
-        <span class="brand-mark" aria-hidden="true">L</span>
-        <span class="brand-copy">Lawfinity <b>Solicitors</b></span>
+  <div class="container footer-top">
+    <div class="footer-identity">
+      <a class="footer-logo" href="{{ '/' | relative_url }}" aria-label="Lawfinity Solicitors home">
+        <img src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="Lawfinity Solicitors" width="938" height="347" loading="lazy">
       </a>
-      <p>SRA-regulated UK immigration solicitors advising individuals and businesses with clear, strategic and personalised legal support.</p>
-      <p class="footer-contact">
-        {{ site.firm.address }}<br>
-        <a href="tel:{{ site.firm.phone_link }}">{{ site.firm.phone_display }}</a><br>
-        <a href="mailto:{{ site.firm.email }}">{{ site.firm.email }}</a>
-      </p>
-      <div class="sra-badge">
-        <iframe src="https://cdn.yoshki.com/iframe/55845r.html" title="Solicitors Regulation Authority digital badge" loading="lazy"></iframe>
-      </div>
+      <p>Specialist UK immigration solicitors.<br>Clear advice for people and business.</p>
     </div>
-
-    <div>
-      <h2 class="footer-heading">Important Services</h2>
-      <ul class="footer-links">
-        <li><a href="{{ '/spouse-visa/' | relative_url }}">Spouse Visa</a></li>
-        <li><a href="{{ '/student-visa/' | relative_url }}">Student Visa</a></li>
-        <li><a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; Work Visas</a></li>
-        <li><a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; Citizenship</a></li>
-        <li><a href="{{ '/humanitarian-asylum/' | relative_url }}">Humanitarian &amp; Asylum</a></li>
-        <li><a href="{{ '/power-of-attorney/' | relative_url }}">Power of Attorney</a></li>
-        <li><a href="{{ '/travel-authorisation/' | relative_url }}">Travel Authorisation</a></li>
-      </ul>
+    <div class="footer-column">
+      <h2>Explore</h2>
+      <a href="{{ '/about/' | relative_url }}">Our firm</a>
+      <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">For businesses</a>
+      <a href="{{ '/family-immigration/' | relative_url }}">For individuals</a>
+      <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews</a>
+      <a href="{{ '/blogs/' | relative_url }}">Insights</a>
     </div>
-
-    <div>
-      <h2 class="footer-heading">Policies</h2>
-      <ul class="footer-links">
-        <li><a href="{{ '/complaint-handling-policy/' | relative_url }}">Complaint Handling Policy</a></li>
-        <li><a href="{{ '/data-protection-policy/' | relative_url }}">Data Protection Policy</a></li>
-        <li><a href="{{ '/equality-and-diversity-and-vulnerable-clients-policy/' | relative_url }}">Equality, Diversity &amp; Vulnerable Clients</a></li>
-        <li><a href="{{ '/fee-scale/' | relative_url }}">Fee Scale</a></li>
-        <li><a href="{{ '/gdpr-policy/' | relative_url }}">GDPR Policy</a></li>
-        <li><a href="{{ '/online-review-policy/' | relative_url }}">Online Review Policy</a></li>
-        <li><a href="{{ '/website-terms-of-use/' | relative_url }}">Website Terms of Use</a></li>
-      </ul>
+    <div class="footer-column">
+      <h2>Contact</h2>
+      <a href="tel:{{ site.firm.phone_link }}">{{ site.firm.phone_display }}</a>
+      <a href="mailto:{{ site.firm.email }}">{{ site.firm.email }}</a>
+      <address>71–75 Shelton Street<br>Covent Garden<br>London WC2H 9JQ</address>
     </div>
   </div>
-
-  <div class="container regulatory-line">
-    <p>{{ site.firm.legal_name }} trading as Lawfinity Solicitors. Authorised and regulated by the Solicitors Regulation Authority, SRA no. {{ site.firm.sra_number }}. Company no. {{ site.firm.company_number }}.</p>
+  <div class="container footer-regulatory">
+    <div class="regulatory-copy">
+      <strong>Lawfinity Solicitors</strong> is authorised and regulated by the Solicitors Regulation Authority, SRA no. 8008876.
+      <span class="policy-links">
+        <a href="{{ '/complaint-handling-policy/' | relative_url }}">Complaints</a>
+        <a href="{{ '/fee-scale/' | relative_url }}">Fees</a>
+        <a href="{{ '/gdpr-policy/' | relative_url }}">Privacy</a>
+        <details class="more-policies"><summary>More policies</summary><div class="policies-popover">
+          <a href="{{ '/data-protection-policy/' | relative_url }}">Data protection</a>
+          <a href="{{ '/equality-and-diversity-and-vulnerable-clients-policy/' | relative_url }}">Equality &amp; diversity</a>
+          <a href="{{ '/online-review-policy/' | relative_url }}">Online reviews</a>
+          <a href="{{ '/website-terms-of-use/' | relative_url }}">Terms of use</a>
+        </div></details>
+      </span>
+    </div>
+    <div class="sra-badge"><iframe src="https://cdn.yoshki.com/iframe/55845r.html" title="SRA digital verification badge" loading="lazy" scrolling="no"></iframe></div>
   </div>
-
-  <div class="container footer-bottom">
-    <span>© <span data-current-year></span> Lawfinity Solicitors. All rights reserved.</span>
-    <span>
-      <a href="{{ '/website-terms-of-use/' | relative_url }}">Terms &amp; Conditions</a>
-      <a href="{{ '/gdpr-policy/' | relative_url }}">Privacy</a>
-      <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
-    </span>
+  <div class="footer-base">
+    <div class="container"><span>© <span data-current-year>2026</span> Lawfinity Solicitors</span><span>Immigration law, approached differently.</span></div>
   </div>
 </footer>
