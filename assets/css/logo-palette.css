@@ -195,3 +195,42 @@ body{color-scheme:light}
   .ls-trustband span+span{border-left:0;border-top:1px solid var(--line)}
   .ls-footer{border-color:var(--line)}
 }
+
+
+/* Official full Lady Justice emblem + wordmark in the masthead.
+   Its original background is transparent; no coloured badge or pill. */
+.ls-header{background:#F8EFE5}
+.ls-header .ls-nav{min-height:120px}
+.ls-header .ls-brand{
+  flex:0 0 270px;
+  width:270px;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+}
+.ls-header .ls-brand img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:110px;
+  object-fit:contain;
+  object-position:left center;
+  filter:none;
+  mix-blend-mode:normal;
+}
+@media(max-width:1160px) and (min-width:961px){
+  .ls-header .ls-brand{width:235px;flex-basis:235px}
+  .ls-header .ls-nav{min-height:108px}
+  .ls-header .ls-brand img{max-height:98px}
+}
+@media(max-width:960px){
+  .ls-header .ls-nav{min-height:102px}
+  .ls-header .ls-brand{width:218px;flex-basis:218px}
+  .ls-header .ls-brand img{max-height:92px}
+}
+@media(max-width:640px){
+  .ls-header .ls-nav{min-height:88px}
+  .ls-header .ls-brand{width:182px;flex-basis:182px}
+  .ls-header .ls-brand img{max-height:78px}
+}
