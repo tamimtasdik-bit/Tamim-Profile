@@ -1,449 +1,115 @@
 ---
+layout: default
+title: UK Immigration Solicitors
+description: Specialist UK immigration law advice for businesses, individuals and families. Lawfinity Solicitors is SRA-regulated, with 14 years of immigration law experience.
 permalink: /
+body_class: home-page
 ---
-<!doctype html>
-<html lang="en-GB">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Lawfinity Solicitors | UK Immigration Solicitors</title>
-  <meta name="description" content="Lawfinity Solicitors is an SRA-regulated UK immigration law firm advising individuals and businesses on visas, sponsorship, settlement, appeals and complex immigration matters.">
-  <meta name="robots" content="noindex,follow">
-  <meta name="theme-color" content="#245F73">
-  <style>
-    :root{
-      --paper:#F2F0EF;
-      --stone:#BBBCBC;
-      --teal:#245F73;
-      --teal-dark:#173F4D;
-      --rust:#733E24;
-      --ink:#121B1F;
-      --muted:#667176;
-      --white:#fff;
-      --line:rgba(18,27,31,.12);
-      --soft:#E7E7E4;
-      --max:1220px;
-      --serif:Georgia,"Times New Roman",serif;
-      --sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6}
-    a{color:inherit;text-decoration:none}
-    img{display:block;max-width:100%}
-    button{font:inherit}
-    .container{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
-    .eyebrow{display:inline-flex;gap:12px;align-items:center;margin:0 0 18px;text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:800;color:var(--teal)}
-    .eyebrow:before{content:"";width:32px;height:2px;background:var(--rust)}
-    h1,h2,h3,p{margin-top:0}
-    h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:.98;letter-spacing:-.045em}
-    h1{font-size:clamp(3.7rem,7vw,7.6rem);margin-bottom:28px}
-    h2{font-size:clamp(2.7rem,4.8vw,5rem);margin-bottom:22px}
-    h3{font-size:clamp(1.7rem,2.2vw,2.45rem);margin-bottom:12px}
-    p{color:var(--muted)}
-    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border:1px solid transparent;border-radius:999px;font-weight:800;font-size:.92rem;transition:.2s ease}
-    .btn:hover{transform:translateY(-2px)}
-    .btn-primary{background:var(--teal);color:#fff}
-    .btn-primary:hover{background:var(--teal-dark)}
-    .btn-ghost{border-color:var(--line);background:rgba(255,255,255,.42)}
-    .text-link{display:inline-flex;align-items:center;gap:9px;color:var(--teal);font-weight:800}
-    .text-link:hover{color:var(--rust)}
-    .topline{background:var(--teal-dark);color:rgba(255,255,255,.78);font-size:.76rem}
-    .topline .container{min-height:34px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .topline strong{color:#fff}
-    .topline-right{display:flex;gap:20px;align-items:center}
-    .site-header{position:sticky;top:0;z-index:50;background:rgba(242,240,239,.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-    .nav{height:92px;display:flex;align-items:center;gap:28px}
-    .logo{width:258px;flex:0 0 auto}
-    .logo img{width:100%;height:auto}
-    .nav-links{margin-left:auto;display:flex;align-items:center;gap:25px;font-size:.9rem;font-weight:750}
-    .nav-links>a:hover,.nav-links summary:hover{color:var(--teal)}
-    .nav-dropdown{position:relative}
-    .nav-dropdown summary{cursor:pointer;list-style:none}
-    .nav-dropdown summary::-webkit-details-marker{display:none}
-    .mega{position:absolute;top:36px;right:-290px;width:min(860px,90vw);display:grid;grid-template-columns:repeat(4,1fr);gap:26px;background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 30px 80px rgba(18,27,31,.14);padding:28px}
-    .mega strong{display:block;margin-bottom:10px;color:var(--rust);text-transform:uppercase;letter-spacing:.12em;font-size:.68rem}
-    .mega a{display:block;padding:6px 0;color:#536067;font-size:.84rem}
-    .mega a:hover{color:var(--teal)}
-    .menu-btn{display:none;margin-left:auto;border:1px solid var(--line);background:transparent;border-radius:999px;padding:9px 15px;font-weight:800}
-    .mobile-menu{display:none;background:#fff;border-top:1px solid var(--line);padding:22px 0 28px}
-    .mobile-menu.open{display:block}
-    .mobile-menu a{display:block;padding:11px 0;border-bottom:1px solid var(--line);font-weight:700}
-    .hero{position:relative;overflow:hidden;padding:92px 0 76px}
-    .hero:before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(115,62,36,.05);left:-220px;bottom:-170px}
-    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:72px;align-items:center}
-    .hero-copy{position:relative;z-index:2}
-    .hero-copy .lead{max-width:720px;font-size:1.16rem;line-height:1.75}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
-    .hero-note{display:flex;align-items:center;gap:18px;margin-top:34px;font-size:.83rem;color:var(--muted)}
-    .hero-note:before{content:"";width:54px;height:1px;background:var(--stone)}
-    .hero-visual{position:relative;min-height:610px}
-    .visual-panel{position:absolute;inset:0 0 30px 42px;border-radius:34px 34px 120px 34px;background:var(--teal);overflow:hidden}
-    .visual-panel:before{content:"";position:absolute;width:430px;height:430px;border-radius:50%;background:var(--rust);right:-210px;top:-170px}
-    .visual-panel:after{content:"";position:absolute;width:270px;height:270px;border-radius:50%;border:1px solid rgba(255,255,255,.25);left:-70px;bottom:70px}
-    .justice-card{position:absolute;z-index:2;left:0;right:30px;top:75px;margin:auto;width:76%;min-height:320px;display:flex;align-items:center;justify-content:center;background:var(--paper);border-radius:26px;box-shadow:0 30px 70px rgba(10,25,31,.20);padding:28px}
-    .justice-card img{width:92%;max-height:285px;object-fit:contain}
-    .hero-stats{position:absolute;z-index:3;left:0;bottom:0;width:78%;display:grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 20px 50px rgba(18,27,31,.11);overflow:hidden}
-    .hero-stats div{padding:24px}
-    .hero-stats div+div{border-left:1px solid var(--line)}
-    .hero-stats strong{display:block;color:var(--teal);font-family:var(--serif);font-size:2rem;font-weight:500;line-height:1}
-    .hero-stats span{display:block;margin-top:7px;color:var(--muted);font-size:.78rem}
-    .trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.32)}
-    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}
-    .trust-item{padding:27px 24px;border-right:1px solid var(--line)}
-    .trust-item:last-child{border-right:0}
-    .trust-item b{display:block;color:var(--ink);font-size:.9rem}
-    .trust-item span{color:var(--muted);font-size:.78rem}
-    .section{padding:116px 0}
-    .section-head{display:grid;grid-template-columns:.92fr 1.08fr;gap:70px;align-items:end;margin-bottom:55px}
-    .section-head p{font-size:1.04rem;max-width:680px}
-    .services{background:#fff}
-    .service-grid{display:grid;grid-template-columns:1.08fr .96fr .96fr;gap:18px}
-    .service-card{position:relative;min-height:390px;padding:34px;border:1px solid var(--line);border-radius:28px;background:var(--paper);overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;transition:.25s ease}
-    .service-card:hover{transform:translateY(-5px);box-shadow:0 24px 55px rgba(18,27,31,.08)}
-    .service-card.primary{background:var(--teal);color:#fff}
-    .service-card.primary p,.service-card.primary .number{color:rgba(255,255,255,.68)}
-    .service-card.primary .text-link{color:#fff}
-    .service-card .number{font-family:var(--serif);font-size:3.4rem;color:var(--stone);line-height:1}
-    .service-card p{max-width:350px}
-    .service-card.primary:after{content:"";position:absolute;width:250px;height:250px;border-radius:50%;right:-100px;top:-90px;background:var(--rust)}
-    .service-card>div{position:relative;z-index:2}
-    .about-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:74px;align-items:stretch}
-    .experience-block{position:relative;min-height:560px;background:var(--rust);color:#fff;border-radius:34px;overflow:hidden;padding:44px;display:flex;flex-direction:column;justify-content:flex-end}
-    .experience-block:before{content:"14";position:absolute;top:8px;left:22px;font-family:var(--serif);font-size:14rem;line-height:.8;color:rgba(255,255,255,.12)}
-    .experience-block .small{position:relative;z-index:2;color:rgba(255,255,255,.72);font-size:.78rem;text-transform:uppercase;letter-spacing:.14em}
-    .experience-block h3{position:relative;z-index:2;font-size:3.1rem;max-width:360px;margin:10px 0 0}
-    .about-copy{padding:30px 0}
-    .about-copy .lead{font-size:1.12rem}
-    .checklist{display:grid;gap:14px;margin:28px 0 30px}
-    .check{display:flex;align-items:center;gap:12px;font-weight:750}
-    .check:before{content:"✓";width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--teal);color:#fff;font-size:.76rem}
-    .practice{background:var(--teal-dark);color:#fff}
-    .practice .eyebrow{color:#dcecf0}
-    .practice .eyebrow:before{background:#d7b7a6}
-    .practice .section-head p{color:rgba(255,255,255,.65)}
-    .practice-list{border-top:1px solid rgba(255,255,255,.15)}
-    .practice-row{display:grid;grid-template-columns:80px 1fr auto;gap:20px;align-items:center;padding:23px 0;border-bottom:1px solid rgba(255,255,255,.15)}
-    .practice-row .n{font-family:var(--serif);font-size:1.5rem;color:#c8d8de}
-    .practice-row h3{font-family:var(--sans);font-size:1.05rem;letter-spacing:0;margin:0}
-    .practice-row a{font-size:.82rem;color:rgba(255,255,255,.72)}
-    .values{background:#fff}
-    .values-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:start}
-    .values-copy h2{max-width:760px}
-    .values-copy>p{font-size:1.07rem;max-width:720px}
-    .value-stack{border-top:1px solid var(--line)}
-    .value-item{padding:23px 0;border-bottom:1px solid var(--line)}
-    .value-item b{display:block;font-family:var(--serif);font-size:1.75rem;font-weight:500;color:var(--rust)}
-    .value-item span{font-size:.86rem;color:var(--muted)}
-    .cta{padding:96px 0}
-    .cta-box{position:relative;overflow:hidden;display:grid;grid-template-columns:1fr auto;gap:50px;align-items:center;padding:58px 62px;border-radius:34px;background:var(--rust);color:#fff}
-    .cta-box:after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;right:-120px;top:-160px;border:1px solid rgba(255,255,255,.25)}
-    .cta-box h2{max-width:760px;margin-bottom:14px}
-    .cta-box p{max-width:720px;color:rgba(255,255,255,.72)}
-    .cta-box .btn{position:relative;z-index:2;background:#fff;color:var(--rust)}
-    footer{background:#11191d;color:#fff;padding:64px 0 24px}
-    .footer-grid{display:grid;grid-template-columns:1.25fr .8fr .8fr;gap:58px}
-    .footer-logo{width:280px;filter:brightness(0) invert(1);opacity:.92}
-    .footer-intro{margin-top:18px;max-width:440px;color:rgba(255,255,255,.62);font-size:.9rem}
-    .footer-title{font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;color:#c7d0d3;font-weight:800;margin-bottom:16px}
-    .footer-links{display:grid;gap:9px}
-    .footer-links a{font-size:.87rem;color:rgba(255,255,255,.64)}
-    .footer-links a:hover{color:#fff}
-    .footer-bottom{display:flex;justify-content:space-between;gap:24px;margin-top:46px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:.76rem;color:rgba(255,255,255,.5)}
-    @media(max-width:1050px){
-      .nav-links,.header-cta{display:none}.menu-btn{display:block}
-      .hero-grid,.section-head,.about-grid,.values-grid{grid-template-columns:1fr}
-      .hero-visual{min-height:540px;max-width:720px}
-      .service-grid{grid-template-columns:1fr 1fr}.service-card.primary{grid-column:1/-1}
-      .trust-grid{grid-template-columns:1fr 1fr}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}
-      .cta-box{grid-template-columns:1fr}.cta-box .btn{justify-self:start}
-      .footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}
-    }
-    @media(max-width:680px){
-      .container{width:min(calc(100% - 28px),var(--max))}
-      .topline .container{min-height:42px}.topline-right span{display:none}
-      .nav{height:78px}.logo{width:210px}
-      .hero{padding:62px 0 52px}.hero-grid{gap:34px}.hero-visual{min-height:430px}.visual-panel{inset:0 0 32px 22px;border-radius:26px 26px 80px 26px}.justice-card{top:54px;right:16px;width:83%;min-height:240px;padding:18px}.hero-stats{width:88%}.hero-stats div{padding:18px}.hero-stats strong{font-size:1.55rem}
-      .trust-grid,.service-grid{grid-template-columns:1fr}.trust-item{border-right:0}.trust-item:not(:last-child){border-bottom:1px solid var(--line)}.service-card.primary{grid-column:auto}
-      .section{padding:76px 0}.section-head{gap:18px;margin-bottom:34px}
-      .experience-block{min-height:430px}.experience-block:before{font-size:10rem}.experience-block h3{font-size:2.4rem}
-      .practice-row{grid-template-columns:48px 1fr}.practice-row a{grid-column:2}
-      .cta{padding:70px 0}.cta-box{padding:38px 28px}
-      .footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.footer-bottom{flex-direction:column}
-    }
-  </style>
-</head>
-<body>
-  <div class="topline">
-    <div class="container">
-      <span><strong>SRA-regulated UK immigration solicitors</strong> · London</span>
-      <div class="topline-right">
-        <span>14 years' experience in UK immigration law</span>
-        <a href="tel:+447950789563">07950 789563</a>
+<section class="home-hero" aria-labelledby="hero-title">
+  <div class="home-hero-inner">
+    <div class="hero-content">
+      <p class="eyebrow">Lawfinity Solicitors · London</p>
+      <h1 id="hero-title">Immigration law, with <em>clarity and conviction.</em></h1>
+      <p class="lede">Specialist advice for businesses, individuals and families navigating UK immigration. We bring legal precision, practical thinking and personal attention to every matter.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Speak to us <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-outline" href="#expertise">Explore our expertise <span aria-hidden="true">↓</span></a>
       </div>
+    </div>
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1539783903272-86fd9a3e4ece?auto=format&amp;fit=crop&amp;w=1600&amp;q=82" alt="Royal Courts of Justice, London, photographed in evening light" width="1000" height="1200" fetchpriority="high">
+      <div class="photo-label">Royal Courts of Justice, London · <a href="https://unsplash.com/photos/grand-gothic-building-on-a-rainy-day-hjSMnilsL64" rel="noopener noreferrer" target="_blank">Photo: Utku Kaplan</a></div>
     </div>
   </div>
+  <div class="hero-rule" aria-hidden="true"></div>
+</section>
 
-  <header class="site-header">
-    <div class="container nav">
-      <a class="logo" href="{{ '/' | relative_url }}" aria-label="Lawfinity Solicitors home">
-        <img src="{{ '/assets/brand/lawfinity-wordmark.webp' | relative_url }}" alt="Lawfinity Solicitors — immigration simplified">
+<div class="intro-strip" aria-label="Lawfinity at a glance">
+  <div class="container intro-strip-inner">
+    <b>Experience. Perspective. Personal service.</b>
+    <span aria-hidden="true"></span>
+    <p>14 years in UK immigration law</p>
+    <span aria-hidden="true"></span>
+    <p>Authorised and regulated by the SRA</p>
+    <span aria-hidden="true"></span>
+    <p>Corporate &amp; private immigration</p>
+  </div>
+</div>
+
+<section class="section-pad services-section" id="expertise" aria-labelledby="expertise-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Our expertise</p>
+        <h2 id="expertise-title">Clear advice for matters that move lives and businesses forward.</h2>
+      </div>
+      <p>From sponsorship and UK work routes to family applications and complex challenges, our advice is shaped by your circumstances and objectives.</p>
+    </div>
+    <div class="service-list">
+      <a class="service-entry" href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">
+        <span class="index">01</span>
+        <h3>Corporate immigration</h3>
+        <p>Sponsor licence applications, Skilled Worker matters, sponsorship compliance and business mobility.</p>
+        <span class="arrow" aria-hidden="true">↗</span>
       </a>
-
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <details class="nav-dropdown">
-          <summary>Services</summary>
-          <div class="mega">
-            <div>
-              <strong>Private immigration</strong>
-              <a href="{{ '/family-immigration/' | relative_url }}">Family Immigration</a>
-              <a href="{{ '/study-visa/' | relative_url }}">Study Visas</a>
-              <a href="{{ '/business-work-visas/' | relative_url }}">Business &amp; Work Visas</a>
-              <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; Citizenship</a>
-            </div>
-            <div>
-              <strong>Complex matters</strong>
-              <a href="{{ '/humanitarian-asylum/' | relative_url }}">Humanitarian &amp; Asylum</a>
-              <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; Reviews</a>
-              <a href="{{ '/eu-settlement-status/' | relative_url }}">EU Settlement Status</a>
-              <a href="{{ '/other-immigration-services/' | relative_url }}">Other Immigration Services</a>
-            </div>
-            <div>
-              <strong>Corporate</strong>
-              <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Sponsor Licence &amp; Compliance</a>
-              <a href="{{ '/sponsorship-management-system/' | relative_url }}">SMS Maintenance</a>
-              <a href="{{ '/sponsor-licence-suspension-and-revocation/' | relative_url }}">Suspension &amp; Revocation</a>
-              <a href="{{ '/additional-business-support/' | relative_url }}">Business Support</a>
-            </div>
-            <div>
-              <strong>Commissioner for Oaths</strong>
-              <a href="{{ '/affidavits-and-statutory-declarations-at-lawfinity-solicitors/' | relative_url }}">Affidavits &amp; Declarations</a>
-              <a href="{{ '/document-legalisation-and-certification/' | relative_url }}">Legalisation &amp; Certification</a>
-              <a href="{{ '/power-of-attorney/' | relative_url }}">Power of Attorney</a>
-              <a href="{{ '/travel-authorisation/' | relative_url }}">Travel Authorisation</a>
-            </div>
-          </div>
-        </details>
-        <a href="{{ '/blogs/' | relative_url }}">Insights</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-      </nav>
-
-      <a class="btn btn-primary header-cta" href="{{ '/contact/' | relative_url }}">Book a consultation</a>
-      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+      <a class="service-entry" href="{{ '/family-immigration/' | relative_url }}">
+        <span class="index">02</span>
+        <h3>Private immigration</h3>
+        <p>Family and dependant visas, work and study applications, settlement and British citizenship.</p>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="service-entry" href="{{ '/appeals-reviews/' | relative_url }}">
+        <span class="index">03</span>
+        <h3>Appeals &amp; complex cases</h3>
+        <p>Appeals, administrative reviews, judicial review and matters raising human rights or protection issues.</p>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
     </div>
-    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
-      <div class="container">
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/family-immigration/' | relative_url }}">Private Immigration</a>
-        <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Corporate Immigration</a>
-        <a href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; Reviews</a>
-        <a href="{{ '/blogs/' | relative_url }}">Insights</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-      </div>
-    </nav>
-  </header>
+    <div class="services-all"><a class="text-link" href="{{ '/about/' | relative_url }}">Learn about our practice <span aria-hidden="true">↗</span></a></div>
+  </div>
+</section>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">UK Immigration Law</p>
-          <h1>Trusted UK Immigration Experts for Private and Corporate Needs</h1>
-          <p class="lead">For 14 years, our experience has been focused on making UK immigration clearer — from visa applications and sponsorship compliance to appeals, judicial reviews and complex casework.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
-            <a class="btn btn-ghost" href="#services">Explore our services</a>
-          </div>
-          <div class="hero-note">Strategic advice. Clear communication. Personal service.</div>
-        </div>
-
-        <div class="hero-visual" aria-label="Lawfinity Solicitors brand">
-          <div class="visual-panel"></div>
-          <div class="justice-card">
-            <img src="{{ '/assets/brand/lawfinity-crest.webp' | relative_url }}" alt="Lawfinity Solicitors Lady Justice logo">
-          </div>
-          <div class="hero-stats">
-            <div><strong>14 years</strong><span>UK immigration experience</span></div>
-            <div><strong>SRA</strong><span>authorised and regulated</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="trust" aria-label="Key areas">
-      <div class="container trust-grid">
-        <div class="trust-item"><b>Corporate Immigration</b><span>Sponsor licences · Skilled Worker · Compliance</span></div>
-        <div class="trust-item"><b>Personal Immigration</b><span>Family · Work · Study · Settlement</span></div>
-        <div class="trust-item"><b>Complex Casework</b><span>Appeals · Judicial review · Human rights</span></div>
-        <div class="trust-item"><b>London-based</b><span>Supporting clients across the UK and internationally</span></div>
-      </div>
-    </section>
-
-    <section class="section services" id="services">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">What we do</p>
-            <h2>Immigration law for people, families and businesses.</h2>
-          </div>
-          <p>Our work covers the full journey: understanding the route, preparing the evidence, managing the application and, where necessary, challenging an adverse decision.</p>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card primary">
-            <span class="number">01</span>
-            <div>
-              <h3>Corporate Immigration Services</h3>
-              <p>Sponsor licence applications, Skilled Worker matters, sponsorship management and compliance support for employers.</p>
-              <a class="text-link" href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Corporate services <span>→</span></a>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <span class="number">02</span>
-            <div>
-              <h3>Personal Immigration Support</h3>
-              <p>Family, visitor, work and student visas, together with settlement, citizenship and EU Settlement Scheme matters.</p>
-              <a class="text-link" href="{{ '/family-immigration/' | relative_url }}">Private immigration <span>→</span></a>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <span class="number">03</span>
-            <div>
-              <h3>Appeals, Reviews &amp; Human Rights</h3>
-              <p>Strategic representation in appeals, administrative reviews, judicial reviews and complex protection or human rights matters.</p>
-              <a class="text-link" href="{{ '/appeals-reviews/' | relative_url }}">Appeals &amp; reviews <span>→</span></a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container about-grid">
-        <div class="experience-block">
-          <span class="small">Immigration law experience</span>
-          <h3>Fourteen years of focused UK immigration practice.</h3>
-        </div>
-
-        <div class="about-copy">
-          <p class="eyebrow">About Lawfinity</p>
-          <h2>Your trusted partner in UK immigration law.</h2>
-          <p class="lead">Lawfinity Solicitors advises both corporate and private immigration clients. Our experience spans Skilled Worker visas, Global Business Mobility, family and private applications, human rights appeals, judicial review, asylum claims and other complex immigration matters.</p>
-          <p>We know that UK immigration rules can feel technical and intimidating. Our role is to make the process understandable, identify the strongest available strategy and manage the legal work with accuracy, care and professionalism.</p>
-          <div class="checklist">
-            <div class="check">14 years' experience in UK immigration law</div>
-            <div class="check">Authorised and regulated by the SRA</div>
-            <div class="check">Tailored legal strategy and clear communication</div>
-          </div>
-          <a class="text-link" href="{{ '/about/' | relative_url }}">More about Lawfinity <span>→</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section practice">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Practice areas</p>
-            <h2>A focused immigration practice with depth where it matters.</h2>
-          </div>
-          <p>Use the areas below to find the route or issue most relevant to you. If you are unsure where your matter fits, contact us and we can help identify the right starting point.</p>
-        </div>
-
-        <div class="practice-list">
-          <div class="practice-row"><span class="n">01</span><h3>Family Immigration</h3><a href="{{ '/family-immigration/' | relative_url }}">View services →</a></div>
-          <div class="practice-row"><span class="n">02</span><h3>Business &amp; Work Visas</h3><a href="{{ '/business-work-visas/' | relative_url }}">View services →</a></div>
-          <div class="practice-row"><span class="n">03</span><h3>Settlement &amp; Citizenship</h3><a href="{{ '/settlement-citizenship/' | relative_url }}">View services →</a></div>
-          <div class="practice-row"><span class="n">04</span><h3>Appeals &amp; Reviews</h3><a href="{{ '/appeals-reviews/' | relative_url }}">View services →</a></div>
-          <div class="practice-row"><span class="n">05</span><h3>Humanitarian &amp; Asylum</h3><a href="{{ '/humanitarian-asylum/' | relative_url }}">View services →</a></div>
-          <div class="practice-row"><span class="n">06</span><h3>Corporate Immigration &amp; Sponsor Compliance</h3><a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">View services →</a></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section values">
-      <div class="container values-grid">
-        <div class="values-copy">
-          <p class="eyebrow">Our core values</p>
-          <h2>Guided by integrity, expertise and empathy.</h2>
-          <p>Immigration work is rarely just paperwork. It can affect a family's future, a person's security or a business's ability to recruit and grow. We combine careful legal analysis with direct communication and an understanding of what is at stake.</p>
-        </div>
-        <div class="value-stack">
-          <div class="value-item"><b>Integrity</b><span>Clear, candid advice and professional standards.</span></div>
-          <div class="value-item"><b>Expertise</b><span>Specialist immigration knowledge applied strategically.</span></div>
-          <div class="value-item"><b>Empathy</b><span>Legal service that recognises the human context.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta">
-      <div class="container">
-        <div class="cta-box">
-          <div>
-            <p class="eyebrow" style="color:#f0d9cd">Start a conversation</p>
-            <h2>Get clear advice on your UK immigration matter.</h2>
-            <p>Whether you are an employer planning to sponsor talent or an individual navigating an immigration application, start with a focused assessment of your options and next steps.</p>
-          </div>
-          <a class="btn" href="{{ '/contact/' | relative_url }}">Book a consultation <span>→</span></a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <img class="footer-logo" src="{{ '/assets/brand/lawfinity-wordmark.webp' | relative_url }}" alt="Lawfinity Solicitors">
-          <p class="footer-intro">SRA-regulated UK immigration solicitors advising individuals and businesses with clear, strategic and personalised legal support.</p>
-          <p class="footer-intro">71–75 Shelton Street, Covent Garden, London WC2H 9JQ<br><a href="tel:+447950789563">07950 789563</a><br><a href="mailto:info@lawfinitysolicitors.com">info@lawfinitysolicitors.com</a></p>
-        </div>
-        <div>
-          <div class="footer-title">Important services</div>
-          <div class="footer-links">
-            <a href="{{ '/spouse-visa/' | relative_url }}">Spouse Visa</a>
-            <a href="{{ '/student-visa/' | relative_url }}">Student Visa</a>
-            <a href="{{ '/skilled-worker-visa/' | relative_url }}">Skilled Worker Visa</a>
-            <a href="{{ '/settlement-citizenship/' | relative_url }}">Settlement &amp; Citizenship</a>
-            <a href="{{ '/judicial-review/' | relative_url }}">Judicial Review</a>
-            <a href="{{ '/power-of-attorney/' | relative_url }}">Power of Attorney</a>
-          </div>
-        </div>
-        <div>
-          <div class="footer-title">Lawfinity</div>
-          <div class="footer-links">
-            <a href="{{ '/about/' | relative_url }}">About</a>
-            <a href="{{ '/blogs/' | relative_url }}">Insights</a>
-            <a href="{{ '/contact/' | relative_url }}">Contact</a>
-            <a href="{{ '/complaint-handling-policy/' | relative_url }}">Complaints</a>
-            <a href="{{ '/fee-scale/' | relative_url }}">Fee Scale</a>
-            <a href="{{ '/gdpr-policy/' | relative_url }}">Privacy &amp; GDPR</a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© 2026 Lawfinity Solicitors. All rights reserved.</span>
-        <span>Authorised and regulated by the Solicitors Regulation Authority · SRA no. 8008876</span>
-      </div>
+<section class="section-pad about-section" aria-labelledby="about-title">
+  <div class="container about-grid-editorial">
+    <div class="about-art" aria-label="14 years' immigration law experience">
+      <strong aria-hidden="true">14</strong>
+      <p>Years of experience in UK immigration law</p>
     </div>
-  </footer>
+    <div class="about-editorial-copy">
+      <p class="eyebrow">The firm</p>
+      <h2 id="about-title">Your immigration matter is never just another case.</h2>
+      <p class="lede">Lawfinity Solicitors is a specialist UK immigration practice advising both corporate and private clients. We combine experienced legal analysis with a thoughtful understanding of each client's priorities.</p>
+      <p>Our work encompasses work and business mobility, family immigration, settlement, citizenship, appeals, judicial review and other complex immigration matters. We focus on providing a clear strategy, direct communication and careful representation — without unnecessary complexity.</p>
+      <a class="text-link" href="{{ '/about/' | relative_url }}">Discover our approach <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
 
-  <script>
-    const button=document.querySelector('.menu-btn');
-    const menu=document.querySelector('#mobile-menu');
-    button?.addEventListener('click',()=>{
-      const open=button.getAttribute('aria-expanded')==='true';
-      button.setAttribute('aria-expanded',String(!open));
-      menu.classList.toggle('open',!open);
-    });
-    document.addEventListener('click',e=>{
-      document.querySelectorAll('.nav-dropdown[open]').forEach(d=>{
-        if(!d.contains(e.target)) d.removeAttribute('open');
-      });
-    });
-  </script>
-</body>
-</html>
+<section class="section-pad approach-section" aria-labelledby="approach-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">How we work</p>
+        <h2 id="approach-title">Considered advice. A clear way forward.</h2>
+      </div>
+      <p style="color:#d4e2e4">A focused process designed to give you clarity at every stage.</p>
+    </div>
+    <div class="approach-grid">
+      <div class="approach-item"><span>01 / Understand</span><h3>Listen first</h3><p>We learn about your circumstances, goals and the legal issues that matter.</p></div>
+      <div class="approach-item"><span>02 / Advise</span><h3>Shape the strategy</h3><p>We identify the available routes, explain the risks and recommend a tailored approach.</p></div>
+      <div class="approach-item"><span>03 / Prepare</span><h3>Get the detail right</h3><p>We work carefully with evidence, documentation, procedural requirements and deadlines.</p></div>
+      <div class="approach-item"><span>04 / Represent</span><h3>Stay alongside you</h3><p>We provide direct communication and robust representation as the matter progresses.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-panel" aria-labelledby="contact-title">
+  <div class="container contact-panel-inner">
+    <div>
+      <p class="eyebrow">Start a conversation</p>
+      <h2 id="contact-title">The right next step begins with a conversation.</h2>
+      <p>For corporate immigration, personal applications and complex matters.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Make an enquiry <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
