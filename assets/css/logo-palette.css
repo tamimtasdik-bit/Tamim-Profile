@@ -60,3 +60,138 @@ body{background:var(--ivory);color:var(--ink)}
 .ls-home .ls-contact-banner .ls-eyebrow{color:#D7B897!important}
 .ls-home .ls-contact-banner .ls-button-light{background:#F8EFE5;color:#171513;border-color:#F8EFE5}
 .ls-home .ls-contact-banner .ls-button-light:hover{background:#FFFFFF;color:#171513;border-color:#FFFFFF}
+
+
+/*
+ * Light ivory across the entire website.
+ * Lawfinity brand accents remain charcoal and bronze; dark fields become
+ * ivory with accessible dark copy. Applies to homepage and all Jekyll pages.
+ */
+:root{
+  --ivory:#F8EFE5;
+  --white:#F8EFE5;
+  --cream:#F8EFE5;
+  --teal:#272421;
+  --dark:#24201D;
+  --deep:#171513;
+  --rust:#795839;
+  --ink:#272421;
+  --muted:#625A54;
+  --line:#D8C9B8;
+  --line-dark:#D8C9B8;
+}
+html,body,main{background:#F8EFE5;color:#272421}
+body{color-scheme:light}
+
+/* Site-wide continuous ivory surfaces */
+.ls-header,.ls-topbar,.ls-mobile,.ls-mega,.ls-resource-menu,
+.ls-hero,.ls-trustband,.ls-about-preview,.ls-services,.ls-values,
+.ls-contact-banner,.ls-footer,.ls-footer-base,
+.page-hero,.page-section,.related-section,
+.section,.section.white,.section.teal,
+.consultation-band,.contact-panel,
+.info-card,.post-card,.blog-card,.contact-card,
+.service-card,.aside-card,.feature-box,.process-card,
+.legal-note,.archive-note,.policy-draft{
+  background:#F8EFE5;
+}
+.ls-header{border-bottom:1px solid var(--line)}
+.ls-topbar{border-bottom:1px solid var(--line)}
+.ls-topbar-inner,.ls-topbar-inner span,.ls-topbar-inner a{color:#484039}
+.ls-nav,.ls-desktop,.ls-desktop a,.ls-dropdown summary,
+.ls-mobile a,.ls-mobile summary,.ls-resource-menu a{color:#272421}
+.ls-mega,.ls-resource-menu,.ls-mobile{border-color:var(--line)}
+.ls-mega a{color:#4F4740}
+.ls-phone-cta,.btn-primary,.ls-button{
+  background:#272421;
+  border-color:#272421;
+  color:#F8EFE5;
+}
+.ls-phone-cta:hover,.btn-primary:hover,.ls-button:hover{
+  background:#795839;border-color:#795839;color:#F8EFE5;
+}
+.ls-button-light{background:#272421;border-color:#272421;color:#F8EFE5}
+.ls-button-light:hover{background:#795839;border-color:#795839;color:#F8EFE5}
+.ls-hero-content,.ls-about-content{color:#272421}
+.ls-home h1,.ls-home h2,.ls-home h3,
+.page-hero h1,.section.teal h2,
+.ls-trustband span,.ls-contact-banner h2,
+.consultation-inner h2{color:#272421}
+.ls-hero-lead,.ls-hero-meta,.ls-about-content p,
+.ls-section-heading>p:last-child,.ls-service-grid p,
+.ls-values-grid p:not(.ls-eyebrow),
+.ls-value-list span{color:#625A54}
+.ls-eyebrow,.eyebrow,.ls-home .ls-contact-banner .ls-eyebrow,
+.ls-contact-banner .ls-eyebrow,.section.teal .eyebrow,
+.consultation-band .eyebrow{color:#795839!important}
+.ls-trustband{color:#272421;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ls-trustband span{font-weight:750}
+.ls-trustband span+span{border-left:1px solid var(--line)}
+.ls-service-grid article{
+  background:#F8EFE5;
+  border:1px solid var(--line);
+}
+.ls-service-grid article:hover{border-color:#795839}
+.ls-service-number,.card-index{color:#795839}
+.ls-value-list,.ls-value-list div{border-color:var(--line)}
+.ls-value-list strong{color:#272421}
+.ls-contact-banner{
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.ls-home .ls-contact-banner h2{color:#272421}
+.ls-home .ls-contact-banner .ls-contact-row p:not(.ls-eyebrow){color:#625A54}
+.ls-home .ls-contact-banner .ls-button-light{background:#272421;color:#F8EFE5;border-color:#272421}
+.ls-home .ls-contact-banner .ls-button-light:hover{background:#795839;color:#F8EFE5;border-color:#795839}
+
+/* Inner pages, hubs, legal articles and consultation callouts */
+.page-hero,.page-section,.related-section{border-color:var(--line)}
+.page-hero .lede,.prose p,.prose li,.breadcrumbs,.section-intro>p,
+.info-card p,.blog-card p,.post-card p,.aside-card p:not(.eyebrow),
+.legal-note{color:#625A54}
+.prose h2,.prose h3,.info-card h3,.aside-card h2,
+.blog-card h2,.post-card h3{color:#272421}
+.prose a,.text-link,.ls-text-link,.aside-phone,
+.contact-list a,.blog-card a{color:#795839}
+.prose a:hover,.text-link:hover,.ls-text-link:hover,
+.contact-list a:hover{color:#272421}
+.section.teal,.section.teal h2,.section.teal p{color:#272421}
+.section.teal .info-card{border:1px solid var(--line)}
+.visual-block{background:#ECE0D3;border:1px solid var(--line)}
+.visual-block blockquote{color:#272421}
+.approach-section{background:#F8EFE5;color:#272421}
+.approach-section h2,.approach-item p,.approach-item span{color:#272421}
+.approach-grid,.approach-item{border-color:var(--line)}
+.consultation-band{border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#272421}
+.consultation-inner h2,.consultation-inner p{color:#272421}
+.consultation-band .btn-light{background:#272421;color:#F8EFE5;border:1px solid #272421}
+.consultation-band .btn-light:hover{background:#795839;color:#F8EFE5}
+.form-card{background:#ECE0D3;color:#272421}
+.form-card h2,.form-card>p,.consent,.form-note{color:#272421}
+.field input,.field select,.field textarea{background:#F8EFE5;border-color:#BCAB98;color:#272421}
+.field select option{color:#272421}
+.contact-card{border:1px solid var(--line)}
+.card-grid,.process-grid,.feature-grid{background:var(--line)}
+
+/* Ivory footer with visible SRA verification and policy links */
+.ls-footer{color:#272421;border-top:1px solid var(--line)}
+.ls-footer h2,.ls-footer-grid h2,
+.ls-footer-grid>div>a,.ls-footer-about>a:not(.ls-footer-brand),
+.ls-footer-grid p,.ls-footer-grid address{color:#453D36}
+.ls-footer-grid>div>a:hover,.ls-footer-about>a:hover{color:#795839}
+.ls-footer-brand,.ls-brand{background:#F8EFE5}
+.ls-regulation{border-top:1px solid var(--line)}
+.ls-regulation p{color:#625A54}
+.ls-sra-register{color:#272421;border:1px solid #BCAB98}
+.ls-sra-register:hover{border-color:#795839;background:#F0E4D6}
+.ls-sra-shield{color:#F8EFE5;background:#272421}
+.ls-sra-register small{color:#625A54}
+.ls-footer-base{border-top:1px solid var(--line)}
+.ls-footer-base .container,.ls-footer-base a{color:#625A54}
+.ls-footer-base a:hover{color:#795839}
+
+/* Responsive border treatment stays subtle on ivory */
+@media(max-width:640px){
+  .ls-trustband span+span{border-left:0;border-top:1px solid var(--line)}
+  .ls-footer{border-color:var(--line)}
+}
