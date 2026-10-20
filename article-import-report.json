@@ -1,0 +1,203 @@
+{
+  "expected": 28,
+  "imported": 28,
+  "missing": 0,
+  "posts": [
+    {
+      "slug": "brexits-impact-on-modern-slavery-in-the-uks-hospitality-industry-an-alarming-trend",
+      "status": "IMPORTED",
+      "words": 1856,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-brexits-impact-on-modern-slavery-in-the-uks-hospitality-industry-an-alarming-trend.md"
+    },
+    {
+      "slug": "article-14-and-the-right-to-non-discrimination-analyzing-r-swp-v-secretary-of-state-for-the-home-department",
+      "status": "IMPORTED",
+      "words": 2030,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-article-14-and-the-right-to-non-discrimination-analyzing-r-swp-v-secretary-of-state-for-the-home-department.md"
+    },
+    {
+      "slug": "detention-of-pregnant-women-and-children-concerns-raised-over-proposed-uk-asylum-legislation",
+      "status": "IMPORTED",
+      "words": 736,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-detention-of-pregnant-women-and-children-concerns-raised-over-proposed-uk-asylum-legislation.md"
+    },
+    {
+      "slug": "navigating-the-immigration-tribunal-the-advisors-guide-to-seeking-adjournment",
+      "status": "IMPORTED",
+      "words": 1143,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-navigating-the-immigration-tribunal-the-advisors-guide-to-seeking-adjournment.md"
+    },
+    {
+      "slug": "the-intersection-of-mental-health-and-immigration-bail-applying-for-immigration-bail-on-grounds-of-mental-health",
+      "status": "IMPORTED",
+      "words": 1272,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-the-intersection-of-mental-health-and-immigration-bail-applying-for-immigration-bail-on-grounds-of-mental-health.md"
+    },
+    {
+      "slug": "judicial-conduct-and-fair-hearings-an-analysis-of-the-case-of-sshd-vs-ms-anonymity-order-made-bangladesh-2023-ukut-00114",
+      "status": "IMPORTED",
+      "words": 1272,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-judicial-conduct-and-fair-hearings-an-analysis-of-the-case-of-sshd-vs-ms-anonymity-order-made-bangladesh-2023-ukut-00114.md"
+    },
+    {
+      "slug": "navigating-the-compassionate-path-assisting-vulnerable-clients",
+      "status": "IMPORTED",
+      "words": 1515,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-navigating-the-compassionate-path-assisting-vulnerable-clients.md"
+    },
+    {
+      "slug": "unprecedented-surge-in-modern-slavery-alarming-statistics-from-england-and-wales",
+      "status": "IMPORTED",
+      "words": 371,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-unprecedented-surge-in-modern-slavery-alarming-statistics-from-england-and-wales.md"
+    },
+    {
+      "slug": "modern-slavery-and-the-implications-of-objective-evidence-on-victims-rights-and-recent-developments",
+      "status": "IMPORTED",
+      "words": 1965,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-modern-slavery-and-the-implications-of-objective-evidence-on-victims-rights-and-recent-developments.md"
+    },
+    {
+      "slug": "navigating-paternity-tests-in-complex-cases-a-handy-guide",
+      "status": "IMPORTED",
+      "words": 989,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-navigating-paternity-tests-in-complex-cases-a-handy-guide.md"
+    },
+    {
+      "slug": "siac-ruling-in-d5-d6-d7-v-sshd-expanding-the-scope-of-deprivation-decisions",
+      "status": "IMPORTED",
+      "words": 626,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-siac-ruling-in-d5-d6-d7-v-sshd-expanding-the-scope-of-deprivation-decisions.md"
+    },
+    {
+      "slug": "policy-paradox-a-deep-dive-into-uk-immigration-reforms",
+      "status": "IMPORTED",
+      "words": 585,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-policy-paradox-a-deep-dive-into-uk-immigration-reforms.md"
+    },
+    {
+      "slug": "navigating-spouse-visa-refusals-based-on-illegal-working-a-comprehensive-legal-analysis",
+      "status": "IMPORTED",
+      "words": 560,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-06-navigating-spouse-visa-refusals-based-on-illegal-working-a-comprehensive-legal-analysis.md"
+    },
+    {
+      "slug": "navigating-deprivation-unraveling-procedure-and-discretion-a-critical-analysis-of-kolicaj-deprivation-procedure-and-discretion-albania-2023",
+      "status": "IMPORTED",
+      "words": 2046,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-navigating-deprivation-unraveling-procedure-and-discretion-a-critical-analysis-of-kolicaj-deprivation-procedure-and-discretion-albania-2023.md"
+    },
+    {
+      "slug": "decoding-the-impact-of-dani-non-removal-human-rights-submissions-albania-2023-ukut-293-iac-on-article-8-in-euss-appeals",
+      "status": "IMPORTED",
+      "words": 767,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-decoding-the-impact-of-dani-non-removal-human-rights-submissions-albania-2023-ukut-293-iac-on-article-8-in-euss-appeals.md"
+    },
+    {
+      "slug": "breach-of-rights-xys-legal-odyssey-against-sshds-unlawful-practices-secret-policy-breach-of-art-8-art-14-and-lack-of-candour-transparency",
+      "status": "IMPORTED",
+      "words": 1069,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-breach-of-rights-xys-legal-odyssey-against-sshds-unlawful-practices-secret-policy-breach-of-art-8-art-14-and-lack-of-candour-transparency.md"
+    },
+    {
+      "slug": "unveiling-the-dynamics-home-offices-recent-guidance-on-public-order-disqualification-and-re-trafficking-risk-assessment-under-the-nationality-and-bo",
+      "status": "IMPORTED",
+      "words": 481,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-unveiling-the-dynamics-home-offices-recent-guidance-on-public-order-disqualification-and-re-trafficking-risk-assessment-under-the-nationality-and-bo.md"
+    },
+    {
+      "slug": "securing-due-process-lessons-learned-from-ullah-v-secretary-of-state-for-the-home-department",
+      "status": "IMPORTED",
+      "words": 1542,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-securing-due-process-lessons-learned-from-ullah-v-secretary-of-state-for-the-home-department.md"
+    },
+    {
+      "slug": "understanding-historical-injustice-a-close-look-at-recent-legal-precedents",
+      "status": "IMPORTED",
+      "words": 1206,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-understanding-historical-injustice-a-close-look-at-recent-legal-precedents.md"
+    },
+    {
+      "slug": "md-and-others-v-secretary-of-state-for-the-home-department-interpretation-of-appendix-eu-family-permit-fp6-1d",
+      "status": "IMPORTED",
+      "words": 875,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-md-and-others-v-secretary-of-state-for-the-home-department-interpretation-of-appendix-eu-family-permit-fp6-1d.md"
+    },
+    {
+      "slug": "navigating-waiver-requests-for-the-knowledge-of-language-and-life-in-the-uk-requirement-a-comprehensive-guide-for-legal-practitioners",
+      "status": "IMPORTED",
+      "words": 760,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-navigating-waiver-requests-for-the-knowledge-of-language-and-life-in-the-uk-requirement-a-comprehensive-guide-for-legal-practitioners.md"
+    },
+    {
+      "slug": "immigration-appeal-success-a-case-of-illegal-work-and-re-documentation-challenges",
+      "status": "IMPORTED",
+      "words": 772,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-immigration-appeal-success-a-case-of-illegal-work-and-re-documentation-challenges.md"
+    },
+    {
+      "slug": "lack-of-clear-tribunal-reasoning-and-limitations-of-the-eu-withdrawal-agreement-case-analysis-the-upper-tribunals-decision-on-eu-settlement-scheme",
+      "status": "IMPORTED",
+      "words": 803,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-lack-of-clear-tribunal-reasoning-and-limitations-of-the-eu-withdrawal-agreement-case-analysis-the-upper-tribunals-decision-on-eu-settlement-scheme.md"
+    },
+    {
+      "slug": "upper-tribunal-rejects-realistic-prospect-test-in-zambrano-rights-assessment-key-implications-of-the-maisiri-case",
+      "status": "IMPORTED",
+      "words": 1155,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-upper-tribunal-rejects-realistic-prospect-test-in-zambrano-rights-assessment-key-implications-of-the-maisiri-case.md"
+    },
+    {
+      "slug": "dealing-with-vulnerable-clients-facing-removal-and-detention-a-guide-for-immigration-lawyers",
+      "status": "IMPORTED",
+      "words": 1130,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-dealing-with-vulnerable-clients-facing-removal-and-detention-a-guide-for-immigration-lawyers.md"
+    },
+    {
+      "slug": "expert-evidence-in-judicial-review-insights-from-r-ms-v-kent-county-council-and-practical-steps-for-compliance-with-cpr-35-41",
+      "status": "IMPORTED",
+      "words": 1012,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-expert-evidence-in-judicial-review-insights-from-r-ms-v-kent-county-council-and-practical-steps-for-compliance-with-cpr-35-41.md"
+    },
+    {
+      "slug": "navigating-the-cancellation-and-curtailment-of-leave-under-appendix-eu-key-considerations-for-legal-practitioners-and-pre-settled-status-holders",
+      "status": "IMPORTED",
+      "words": 824,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-navigating-the-cancellation-and-curtailment-of-leave-under-appendix-eu-key-considerations-for-legal-practitioners-and-pre-settled-status-holders.md"
+    },
+    {
+      "slug": "handling-detention-and-removal-matters-during-the-holiday-period-a-guide-for-immigration-lawyers",
+      "status": "IMPORTED",
+      "words": 750,
+      "source": "wordpress-rest",
+      "path": "_posts/2025-01-05-handling-detention-and-removal-matters-during-the-holiday-period-a-guide-for-immigration-lawyers.md"
+    }
+  ]
+}
