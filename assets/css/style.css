@@ -201,3 +201,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #b7
 .consultation-inner{display:block}.consultation-inner .btn{margin-top:25px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Resilient architectural backdrop while the licensed image loads */
+.hero-media{background:radial-gradient(circle at 68% 22%,#51727a 0%,#274b54 47%,#132f3a 100%)}
+.hero-media::before{content:"";position:absolute;inset:10% 11% 0;z-index:0;opacity:.5;background:repeating-linear-gradient(90deg,transparent 0 63px,rgba(255,255,255,.14) 64px 66px,transparent 67px 127px);border-top:1px solid rgba(255,255,255,.16);transform:skew(-6deg)}
+.hero-media img{z-index:1;color:transparent;font-size:0}
+.hero-media::after{z-index:2}
+.photo-label{z-index:3}
