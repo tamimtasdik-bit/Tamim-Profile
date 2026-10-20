@@ -418,3 +418,39 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #80
   .architecture-signature span{font-size:25px}
   .architecture-signature small{font-size:8px}
 }
+
+
+/* Visible original logo: correct source aspect ratio and high-contrast lettering. */
+.premium-header .masthead{height:196px;grid-template-columns:1fr 395px 1fr}
+.premium-header .brand{width:395px!important;max-width:100%;height:auto;grid-column:2;justify-self:center;overflow:visible}
+.premium-header .official-logo,.premium-footer .official-logo{aspect-ratio:380/175!important;overflow:visible;display:block}
+.official-logo img{object-fit:contain!important}
+.official-logo .logo-contrast{display:none!important}
+.official-logo::after{
+ content:"";position:absolute;z-index:3;inset:0;background:#F5EFE2;
+ -webkit-mask-image:url('../brand/lawfinity-crest.webp');
+ mask-image:url('../brand/lawfinity-crest.webp');
+ -webkit-mask-size:100% 100%;mask-size:100% 100%;
+ -webkit-mask-position:center;mask-position:center;
+ -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+ clip-path:inset(78% 0 0 0);pointer-events:none
+}
+.premium-footer .footer-logo{width:270px!important}
+@media(max-width:1050px){
+ .premium-header .masthead{height:170px;grid-template-columns:1fr 330px 1fr}
+ .premium-header .brand{width:330px!important}
+}
+@media(max-width:820px){
+ .premium-header .masthead{height:156px;grid-template-columns:1fr 310px 1fr}
+ .premium-header .brand{width:310px!important;grid-column:2}
+}
+@media(max-width:680px){
+ .premium-header .masthead{height:140px;grid-template-columns:minmax(0,1fr) 42px;gap:9px}
+ .premium-header .brand{width:260px!important;grid-column:1;justify-self:start}
+ .premium-header .mobile-toggle{grid-column:2}
+ .premium-footer .footer-logo{width:270px!important}
+}
+@media(max-width:360px){
+ .premium-header .brand{width:228px!important}
+ .premium-header .masthead{height:126px}
+}
