@@ -2,6 +2,13 @@
 
 This repository contains the GitHub Pages rebuild of the Lawfinity Solicitors website.
 
+## Preview
+The current GitHub Pages preview is:
+
+https://tamimtasdik-bit.github.io/Tamim-Profile/
+
+The preview uses `baseurl: /Tamim-Profile` so assets and internal links work correctly on the project Pages URL. Before connecting the production domain, change `url` to `https://lawfinitysolicitors.com`, set `baseurl` to an empty string, and replace the preview-only `robots.txt`.
+
 ## Design
 The site uses the **Yacht Club** palette:
 - `#F2F0EF` — paper
@@ -26,7 +33,9 @@ The site uses the **Yacht Club** palette:
 2. Replace the policy migration notices with the firm's approved policy texts.
 3. Replace each blog archive migration notice with the approved original article body.
 4. Review all newly drafted service-page copy for legal/marketing approval.
-5. Confirm GitHub Pages and the production domain/DNS are configured.
+5. Switch Jekyll from the project preview base URL to the production domain.
+6. Update `robots.txt` so search engines can crawl the production site.
+7. Confirm production DNS and GitHub Pages custom-domain settings.
 
 Firm details used in the build:
 - Lawfinity Solicitors Limited
