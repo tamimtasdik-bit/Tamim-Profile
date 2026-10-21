@@ -1,14 +1,82 @@
 ---
 layout: hub
-title: "Other Immigration Services"
-description: "Additional UK immigration support including visitor applications and detention-related matters."
-intro: "Our wider immigration practice includes visitor applications and urgent matters involving detention, bail and removal."
+title: Other immigration services
 permalink: /other-immigration-services/
-cards:
-  - title: "UK Visitor Visa"
-    url: "/uk-visitor-visas/"
-    text: "Advice on visitor visa applications for permitted short-term visits to the UK."
-  - title: "Detention, Bail & Removals"
-    url: "/immigration-detention-bail-and-removals/"
-    text: "Urgent advice and representation in matters involving immigration detention, bail and removal."
+source_url: https://lawfinitysolicitors.com/other-immigration-services/
+description: Other immigration services
 ---
+
+<div class="live-source-content">
+<div>
+<div>
+<div>
+<div>
+<div>
+<img alt="" src="https://lawfinitysolicitors.com/wp-content/uploads/2022/04/Transparent-Logo-300x300.png"/> </div>
+</div>
+</div>
+</div>
+<section>
+
+<div>
+<div>
+<div>
+<section>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<div>
+<div>
+
+<a href="{{ '/uk-visitor-visas/' | relative_url }}" target="_blank">
+<div>
+<div>
+<div>
+<div>
+<h6>
+<span>
+							Visitor Visa						</span>
+</h6>
+<p>
+						A UK Visitor Visa is for people who wish to travel to the UK for a temporary period for a variety of reasons.					</p>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href="{{ '/immigration-detention-bail-and-removals/' | relative_url }}" target="_blank">
+<div>
+<div>
+<div>
+<div>
+<h6>
+<span>
+							Detention, Bail, and Removals						</span>
+</h6>
+<p>
+						Immigration detention, bail applications, and removals are highly complex and critical issues in the UK immigration system.					</p>
+</div>
+</div>
+</div>
+</div>
+</a>
+
+</div>
+</div>
+</div>
+</div>

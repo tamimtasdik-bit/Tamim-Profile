@@ -1,0 +1,417 @@
+{
+  "expected": 51,
+  "imported": 51,
+  "missing": [],
+  "report": [
+    {
+      "slug": "about",
+      "status": "IMPORTED",
+      "words": 1123,
+      "source_words": 1123,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/about/"
+    },
+    {
+      "slug": "family-immigration",
+      "status": "IMPORTED",
+      "words": 237,
+      "source_words": 237,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/family-immigration/"
+    },
+    {
+      "slug": "study-visa",
+      "status": "IMPORTED",
+      "words": 68,
+      "source_words": 68,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/study-visa/"
+    },
+    {
+      "slug": "business-work-visas",
+      "status": "IMPORTED",
+      "words": 46,
+      "source_words": 46,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/business-work-visas/"
+    },
+    {
+      "slug": "settlement-citizenship",
+      "status": "IMPORTED",
+      "words": 213,
+      "source_words": 213,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/settlement-citizenship/"
+    },
+    {
+      "slug": "humanitarian-asylum",
+      "status": "IMPORTED",
+      "words": 93,
+      "source_words": 93,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/humanitarian-asylum/"
+    },
+    {
+      "slug": "appeals-reviews",
+      "status": "IMPORTED",
+      "words": 97,
+      "source_words": 97,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/appeals-reviews/"
+    },
+    {
+      "slug": "eu-settlement-status",
+      "status": "IMPORTED",
+      "words": 99,
+      "source_words": 99,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/eu-settlement-status/"
+    },
+    {
+      "slug": "other-immigration-services",
+      "status": "IMPORTED",
+      "words": 46,
+      "source_words": 49,
+      "coverage": 0.94,
+      "source_url": "https://lawfinitysolicitors.com/other-immigration-services/"
+    },
+    {
+      "slug": "spouse-visa",
+      "status": "IMPORTED",
+      "words": 1289,
+      "source_words": 1289,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/spouse-visa/"
+    },
+    {
+      "slug": "child-dependent-visa",
+      "status": "IMPORTED",
+      "words": 638,
+      "source_words": 638,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/child-dependent-visa/"
+    },
+    {
+      "slug": "fiance-visa",
+      "status": "IMPORTED",
+      "words": 1271,
+      "source_words": 1271,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/fiance-visa/"
+    },
+    {
+      "slug": "marriage-visitor-visa",
+      "status": "IMPORTED",
+      "words": 887,
+      "source_words": 887,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/marriage-visitor-visa/"
+    },
+    {
+      "slug": "dependent-and-elderly-relative-visas",
+      "status": "IMPORTED",
+      "words": 1153,
+      "source_words": 1153,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/dependent-and-elderly-relative-visas/"
+    },
+    {
+      "slug": "unmarried-partner-visa",
+      "status": "IMPORTED",
+      "words": 1108,
+      "source_words": 1108,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/unmarried-partner-visa/"
+    },
+    {
+      "slug": "uk-ancestry-visa",
+      "status": "IMPORTED",
+      "words": 883,
+      "source_words": 883,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/uk-ancestry-visa/"
+    },
+    {
+      "slug": "student-visa",
+      "status": "IMPORTED",
+      "words": 1004,
+      "source_words": 1004,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/student-visa/"
+    },
+    {
+      "slug": "graduate-visa",
+      "status": "IMPORTED",
+      "words": 873,
+      "source_words": 873,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/graduate-visa/"
+    },
+    {
+      "slug": "skilled-worker-visa",
+      "status": "IMPORTED",
+      "words": 1174,
+      "source_words": 1174,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/skilled-worker-visa/"
+    },
+    {
+      "slug": "citizenship-by-descent",
+      "status": "IMPORTED",
+      "words": 1342,
+      "source_words": 1345,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/citizenship-by-descent/"
+    },
+    {
+      "slug": "ilr",
+      "status": "IMPORTED",
+      "words": 1014,
+      "source_words": 1014,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/ilr/"
+    },
+    {
+      "slug": "indefinite-leave-to-remain-based-on-long-residence",
+      "status": "IMPORTED",
+      "words": 913,
+      "source_words": 913,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/indefinite-leave-to-remain-based-on-long-residence/"
+    },
+    {
+      "slug": "naturalisation",
+      "status": "IMPORTED",
+      "words": 914,
+      "source_words": 914,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/naturalisation/"
+    },
+    {
+      "slug": "registration-of-a-stateless-child-as-a-british-citizen",
+      "status": "IMPORTED",
+      "words": 1248,
+      "source_words": 1248,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/registration-of-a-stateless-child-as-a-british-citizen/"
+    },
+    {
+      "slug": "registration-of-a-child-under-18-as-a-british-citizen",
+      "status": "IMPORTED",
+      "words": 1211,
+      "source_words": 1221,
+      "coverage": 0.99,
+      "source_url": "https://lawfinitysolicitors.com/registration-of-a-child-under-18-as-a-british-citizen/"
+    },
+    {
+      "slug": "asylum-application",
+      "status": "IMPORTED",
+      "words": 1351,
+      "source_words": 1351,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/asylum-application/"
+    },
+    {
+      "slug": "discretionary-leave-to-remain",
+      "status": "IMPORTED",
+      "words": 1812,
+      "source_words": 1812,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/discretionary-leave-to-remain/"
+    },
+    {
+      "slug": "immigration-appeals",
+      "status": "IMPORTED",
+      "words": 1199,
+      "source_words": 1199,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/immigration-appeals/"
+    },
+    {
+      "slug": "administrative-review",
+      "status": "IMPORTED",
+      "words": 1319,
+      "source_words": 1319,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/administrative-review/"
+    },
+    {
+      "slug": "judicial-review",
+      "status": "IMPORTED",
+      "words": 1289,
+      "source_words": 1289,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/judicial-review/"
+    },
+    {
+      "slug": "pre-settled-status",
+      "status": "IMPORTED",
+      "words": 1032,
+      "source_words": 1032,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/pre-settled-status/"
+    },
+    {
+      "slug": "settled-status",
+      "status": "IMPORTED",
+      "words": 1020,
+      "source_words": 1020,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/settled-status/"
+    },
+    {
+      "slug": "eu-family-member",
+      "status": "IMPORTED",
+      "words": 1287,
+      "source_words": 1287,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/eu-family-member/"
+    },
+    {
+      "slug": "uk-visitor-visas",
+      "status": "IMPORTED",
+      "words": 1250,
+      "source_words": 1253,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/uk-visitor-visas/"
+    },
+    {
+      "slug": "immigration-detention-bail-and-removals",
+      "status": "IMPORTED",
+      "words": 1420,
+      "source_words": 1420,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/immigration-detention-bail-and-removals/"
+    },
+    {
+      "slug": "sponsor-licence-application-and-compliance",
+      "status": "IMPORTED",
+      "words": 1028,
+      "source_words": 1033,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/sponsor-licence-application-and-compliance/"
+    },
+    {
+      "slug": "sponsorship-management-system",
+      "status": "IMPORTED",
+      "words": 927,
+      "source_words": 927,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/sponsorship-management-system/"
+    },
+    {
+      "slug": "sponsor-licence-suspension-and-revocation",
+      "status": "IMPORTED",
+      "words": 895,
+      "source_words": 900,
+      "coverage": 0.99,
+      "source_url": "https://lawfinitysolicitors.com/sponsor-licence-suspension-and-revocation/"
+    },
+    {
+      "slug": "additional-business-support",
+      "status": "IMPORTED",
+      "words": 801,
+      "source_words": 804,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/additional-business-support/"
+    },
+    {
+      "slug": "affidavits-and-statutory-declarations-at-lawfinity-solicitors",
+      "status": "IMPORTED",
+      "words": 794,
+      "source_words": 801,
+      "coverage": 0.99,
+      "source_url": "https://lawfinitysolicitors.com/affidavits-and-statutory-declarations-at-lawfinity-solicitors/"
+    },
+    {
+      "slug": "deed-poll",
+      "status": "IMPORTED",
+      "words": 750,
+      "source_words": 750,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/deed-poll/"
+    },
+    {
+      "slug": "document-legalisation-and-certification",
+      "status": "IMPORTED",
+      "words": 803,
+      "source_words": 803,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/document-legalisation-and-certification/"
+    },
+    {
+      "slug": "power-of-attorney",
+      "status": "IMPORTED",
+      "words": 833,
+      "source_words": 833,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/power-of-attorney/"
+    },
+    {
+      "slug": "travel-authorisation",
+      "status": "IMPORTED",
+      "words": 766,
+      "source_words": 766,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/travel-authorisation/"
+    },
+    {
+      "slug": "complaint-handling-policy",
+      "status": "IMPORTED",
+      "words": 480,
+      "source_words": 480,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/complaint-handling-policy/"
+    },
+    {
+      "slug": "data-protection-policy",
+      "status": "IMPORTED",
+      "words": 607,
+      "source_words": 607,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/data-protection-policy/"
+    },
+    {
+      "slug": "equality-and-diversity-and-vulnerable-clients-policy",
+      "status": "IMPORTED",
+      "words": 585,
+      "source_words": 585,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/equality-and-diversity-and-vulnerable-clients-policy/"
+    },
+    {
+      "slug": "fee-scale",
+      "status": "IMPORTED",
+      "words": 472,
+      "source_words": 472,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/fee-scale/"
+    },
+    {
+      "slug": "gdpr-policy",
+      "status": "IMPORTED",
+      "words": 3182,
+      "source_words": 3182,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/gdpr-policy/"
+    },
+    {
+      "slug": "online-review-policy",
+      "status": "IMPORTED",
+      "words": 466,
+      "source_words": 466,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/online-review-policy/"
+    },
+    {
+      "slug": "website-terms-of-use",
+      "status": "IMPORTED",
+      "words": 692,
+      "source_words": 692,
+      "coverage": 1.0,
+      "source_url": "https://lawfinitysolicitors.com/website-terms-of-use/"
+    }
+  ],
+  "source": "https://lawfinitysolicitors.com",
+  "note": "Content imported from public WordPress pages; review legal accuracy, external links and imagery before replacing production."
+}
