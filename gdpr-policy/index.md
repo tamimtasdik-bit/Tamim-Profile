@@ -7,48 +7,34 @@ source_url: https://lawfinitysolicitors.com/gdpr-policy/
 ---
 
 <div class="live-source-content">
-<div>
-<div>
-<div>
-<div>
-<div>
-<img alt="" src="https://lawfinitysolicitors.com/wp-content/uploads/2022/04/Transparent-Logo-300x300.png"/> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
+<h6>GDPR Policy</h6><p>Lawfinity Solicitors is committed to protecting and respecting your privacy. We take your privacy very seriously, and it is important that you provide personal data to us and enjoy our website without compromising your privacy in any way. Lawfinity Solicitors is entered in the Information Commissioner’s Register of Data Controllers with registration number [INSERT REGISTRATION NUMBER].</p><p>This privacy notice sets out the basis on which any personal data we collect from you or others, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your data and how we will treat it. Please do not send us any of your information if you do not want it to be used in the ways described in this notice.</p><h6>Important information and who we are</h6><p>Lawfinity Solicitors is the controller and responsible for your data (collectively referred to as “Lawfinity Solicitors”, “we,” “us,” or “our” in this privacy notice). Lawfinity Solicitors is regulated by the [Relevant Regulatory Authority], which ensures that all regulated entities comply with the applicable codes of standards and rules.</p><p>We have appointed a data protection officer who is responsible for overseeing questions about this privacy notice. If you have any questions about this privacy notice, including any requests to exercise your legal rights, please contact us using the details set out below:</p><p>Contact details</p><p>Name: Tamim Tasdik</p><p>Email: Info@lawfinitysolicitors.com</p><p>You have the right to make a complaint at any time to the Information Commissioner’s Office (ICO), the [Your Country] supervisory authority for data protection issues (Website: [ICO Website]). We would, however, appreciate the chance to deal with your concerns before you approach the ICO, so please contact us in the first instance.</p><h6>Inform us of changes</h6><p>The personal data we hold about you must be accurate and current. Please keep us informed if your data changes during your relationship with us.<br/>Third-party links</p><p>Our website <a href="{{ '/' | relative_url }}">www.lawfinitysolicitors.com</a>  may include links to third-party websites, plug-ins, and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our website, we encourage you to read the privacy notice of every website you visit.</p><h6>Information we collect about you</h6><p>We will need to collect certain personal information to provide our services to you. The information collected may include:</p><ul><li>Name, address, telephone number, and email address.</li><li>Identification documentation (e.g., passport, driver’s license, utility bills, and bank statements).</li><li>Financial details including bank, tax details, and pension arrangements.</li><li>Job title.</li></ul>
 
-<div>
-<h6>GDPR Policy</h6><p>Lawfinity Solicitors is committed to protecting and respecting your privacy. We take your privacy very seriously, and it is important that you provide personal data to us and enjoy our website without compromising your privacy in any way. Lawfinity Solicitors is entered in the Information Commissioner’s Register of Data Controllers with registration number [INSERT REGISTRATION NUMBER].</p><p>This privacy notice sets out the basis on which any personal data we collect from you or others, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your data and how we will treat it. Please do not send us any of your information if you do not want it to be used in the ways described in this notice.</p><h6>Important information and who we are</h6><p>Lawfinity Solicitors is the controller and responsible for your data (collectively referred to as “Lawfinity Solicitors”, “we,” “us,” or “our” in this privacy notice). Lawfinity Solicitors is regulated by the [Relevant Regulatory Authority], which ensures that all regulated entities comply with the applicable codes of standards and rules.</p><p>We have appointed a data protection officer who is responsible for overseeing questions about this privacy notice. If you have any questions about this privacy notice, including any requests to exercise your legal rights, please contact us using the details set out below:</p><p>Contact details</p><p>Name: Tamim Tasdik</p><p>Email: Info@lawfinitysolicitors.com</p><p>You have the right to make a complaint at any time to the Information Commissioner’s Office (ICO), the [Your Country] supervisory authority for data protection issues (Website: [ICO Website]). We would, however, appreciate the chance to deal with your concerns before you approach the ICO, so please contact us in the first instance.</p><h6>Inform us of changes</h6><p>The personal data we hold about you must be accurate and current. Please keep us informed if your data changes during your relationship with us.<br/><span>Third-party links</span></p><p>Our website <a href="{{ '/' | relative_url }}">www.lawfinitysolicitors.com</a>  may include links to third-party websites, plug-ins, and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our website, we encourage you to read the privacy notice of every website you visit.</p><h6>Information we collect about you</h6><p>We will need to collect certain personal information to provide our services to you. The information collected may include:</p><ul><li>Name, address, telephone number, and email address.</li><li>Identification documentation (e.g., passport, driver’s license, utility bills, and bank statements).</li><li>Financial details including bank, tax details, and pension arrangements.</li><li>Job title.</li></ul>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
+ 
 
-<div>
+
+
+
+
+
+
+
+
+
+
 <h6>How is your data collected?</h6><p>We use different methods to collect data from and about you, including through:</p><ul><li>Direct interactions. You may give us your details directly by corresponding with us via our website, Live Chat, by post, phone, email, or otherwise. This includes personal data you provide when you:<ul><li>Instruct us on a legal matter.</li><li>Provide personal information in the recruitment section of the website.</li><li>Book and/or pay for the events that we provide.</li><li>Provide us with information about your attendance at any of our seminars or other hosted events.</li><li>Complete any “contact us” forms or claim forms.</li><li>Request marketing to be sent to you.</li><li>Give us some feedback.</li><li>Contact Lawfinity Solicitors for any other purpose (including via social media).</li></ul></li><li>Automated technologies or interactions. As you interact with our website, we may automatically collect Technical Data about your equipment, browsing actions, and patterns. We collect this personal data by using cookies and other similar technologies. Please see our cookie policy at [LINK FOR COOKIE POLICY] for further details on which cookies we use.</li><li>Third parties or publicly available sources. We may receive personal data about you from various third parties as set out below:<ul><li>Technical Data from analytics providers such as Google.</li><li>Publicly available sources such as Companies House, HM Land Registry, Electoral Register, and other search information providers.</li><li>Direct from a third party (e.g., a client, other parties involved in the legal proceedings, a court order, or client due diligence providers).</li><li>A third party includes your bank or another financial advisor, recruitment agency, your insurer, employer, doctor, or other medical professionals.</li><li>An intermediary or business associate who has informed us about a business opportunity that you are involved in.</li></ul></li></ul><h6>How will we use the information we collect?</h6><p>We will only use your data when the law allows us to. Most commonly, we will use your data in the following circumstances:</p><ul><li>Where do we need to perform the contract we are about to enter into or have entered into with you?</li><li>Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.</li><li>Where we need to comply with a legal or regulatory obligation.</li><li>Where you have given consent.</li></ul><h6>Notice to UK Residents</h6><p>We are required by the General Data Protection Regulation (GDPR), Data Protection Act 2018 (DPA 2018) to provide UK residents with an explanation of how we collect, use, and share their Personal Information, and of the rights and choices we offer to the UK residents concerning that Personal Information. For purposes of this section, “Personal Information” has the meaning given in the UK Consumer Privacy Act of 2018 (“CCPA”).</p><p>We have set out below, in a table format, a description of the ways we plan to use your data, and which of the legal bases we rely on to do so.</p><p>Note that we may process your data for more than one lawful ground depending upon the specific purpose for which we are using your data. Please contact us if you need details about the specific</p>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
 
-<div>
+ 
+
+
+
+
+
+
+
+
+
+
+
 <p>legal ground we are relying upon to process your data where more than one ground has been set out in the table below.</p>
 <table>
 <tbody>
@@ -110,7 +96,7 @@ source_url: https://lawfinitysolicitors.com/gdpr-policy/
 </tr>
 </tbody>
 </table>
-<h6><span>Change of purpose</span></h6>
+<h6>Change of purpose</h6>
 <p>We will only use your data for the purposes for which we collected it unless we reasonably consider that we need to use it for another reason and that reason is compatible with the original purpose. If we need to use your data for an unrelated purpose, we will notify you and explain the legal basis that allows us to do so.</p>
 <h6>How long do we keep your data?</h6>
 <p>We will only retain your data for as long as necessary to fulfil the purposes we collected it for, including to satisfy any legal, accounting, or reporting requirements.</p>
@@ -154,7 +140,7 @@ source_url: https://lawfinitysolicitors.com/gdpr-policy/
 <p>Where we host an event with an intermediary or business associate, we will write to you about the event ourselves rather than disclosing your details to those third parties although they will be given your name and the name of the organisation that you work for if you attend.</p>
 <p>Our marketing e-mails will contain an opt-out button. Please use this button if you would like us to stop sending you marketing material. Alternatively, you can ask us to stop sending you marketing material at any time by emailing us at [Email Address] or writing to our marketing department at [Postal Address].</p>
 <h6>OUR HOSTED EVENTS (INCLUDING ONLINE EVENTS)</h6>
-<p>If you sign up for or present at one of our events, we will retain your contact details (name, business role, telephone number, and company name) to provide you with event details. Our legal basis for processing your information is our legitimate business interests and/or to carry out our contractual terms.<br/><span>We may also use this contact information to send out invitations to any future similar events which we consider you might like to attend, or if you have directly requested this information.<br/></span><span>During our events, be that in person or an online experience, you may be audio and video recorded and/or live broadcasted through web streaming. By signing up for our events, you acknowledge and agree to the collection and processing of your data and the processing (including broadcasting and recording) of the audio and video recordings and/or web streaming events.</span></p>
+<p>If you sign up for or present at one of our events, we will retain your contact details (name, business role, telephone number, and company name) to provide you with event details. Our legal basis for processing your information is our legitimate business interests and/or to carry out our contractual terms.<br/>We may also use this contact information to send out invitations to any future similar events which we consider you might like to attend, or if you have directly requested this information.<br/>During our events, be that in person or an online experience, you may be audio and video recorded and/or live broadcasted through web streaming. By signing up for our events, you acknowledge and agree to the collection and processing of your data and the processing (including broadcasting and recording) of the audio and video recordings and/or web streaming events.</p>
 <p>We will destroy your data if you have not made contact with us for 5 years, or sooner if you advise us that you do not wish us to store your personal information.</p>
 <h6>Your Rights</h6>
 <p>Under data protection legislation, you have several rights regarding the use of your data, as follows:</p>
@@ -168,7 +154,7 @@ source_url: https://lawfinitysolicitors.com/gdpr-policy/
 <li>Withdraw consent at any time where we are relying on consent to process your data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain services to you. We will advise you if this is the case at the time you withdraw your consent.<br/>No Fee Usually Required</li>
 </ul>
 <p>You will not have to pay a fee to access your data (or to exercise any of the other rights). However, we may charge a reasonable fee if your request is unfounded, repetitive, or excessive. Alternatively, we may refuse to comply with your request in these circumstances.</p>
-<h6><span>What We May Need From You</span></h6>
+<h6>What We May Need From You</h6>
 <p>We may need to request specific information from you to help us confirm your identity and ensure your right to access your data (or to exercise any of your other rights). This is a security measure to ensure that personal data is not disclosed to any person who has no right to receive it. We may also contact you to ask you for further information about your request to speed up our response.</p>
 <h6>Time Limit to Respond</h6>
 <p>We try to respond to all legitimate requests within one month. Occasionally it may take us longer than a month if your request is particularly complex or you have made several requests. In this case, we will notify you and keep you updated.</p>
@@ -179,10 +165,4 @@ source_url: https://lawfinitysolicitors.com/gdpr-policy/
 <p>We reserve the right to update this privacy policy at any time, and we will provide you with a new privacy policy when we make any substantial updates. We may also notify you in other ways from time to time about processing your personal information.</p>
 <p>Please check back frequently to see any updates or changes to our privacy policy.</p>
 <p>Thank you for taking the time to read our privacy policy.</p>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-</div>
 </div>

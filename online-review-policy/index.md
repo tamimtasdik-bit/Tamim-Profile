@@ -7,22 +7,6 @@ source_url: https://lawfinitysolicitors.com/online-review-policy/
 ---
 
 <div class="live-source-content">
-<div>
-<div>
-<div>
-<div>
-<div>
-<img alt="" src="https://lawfinitysolicitors.com/wp-content/uploads/2022/04/Transparent-Logo-300x300.png"/> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
-
-<div>
 <h6>1. INTRODUCTION</h6>
 <p>1.1. Lawfinity Solicitors (the “Company”) values feedback from its clients and strives to maintain the highest standards of service and professionalism. This Online Review Policy (the “Policy”) outlines the Company’s approach to online reviews and sets forth the principles governing the collection and use of client reviews.<br/><h6>2. OBJECTIVES</h6></p>
 <p>2.1. The objectives of this Policy are as follows:</p>
@@ -59,10 +43,4 @@ source_url: https://lawfinitysolicitors.com/online-review-policy/
 <p>8.1. The Company will actively monitor online reviews to ensure compliance with this Policy and to identify areas for improvement in its services.</p>
 <h6>9. REVIEW PERIODICITY</h6>
 <p>9.1. Lawfinity Solicitors encourages clients to provide reviews at their convenience. There is no obligation or requirement for clients to submit reviews.</p>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-</div>
 </div>

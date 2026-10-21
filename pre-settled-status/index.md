@@ -10,40 +10,19 @@ source_url: https://lawfinitysolicitors.com/pre-settled-status/
 ---
 
 <div class="live-source-content">
-<div>
-<div>
-<div>
-<div>
-<div>
-<img alt="" src="https://lawfinitysolicitors.com/wp-content/uploads/2022/04/Transparent-Logo-300x300.png"/> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
-
-<div>
 <h4><strong>EU Pre-Settled Status: Your Path to Securing Residency in the UK</strong></h4>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
 
-<div>
+ 
+
+
+
+
+
+
+
+
+
+
+
 <p>Since the UK left the European Union, EU citizens and their family members have had the opportunity to apply for <strong>pre-settled status</strong> under the <strong>EU Settlement Scheme</strong>. This status is for those who arrived in the UK before 31 December 2020 but have not yet lived in the UK for a continuous 5-year period. The scheme allows you to stay in the UK until you have accumulated 5 years of continuous residence, after which you can apply for <strong>settled status</strong>.</p><p>At <strong>Lawfinity Solicitors</strong>, we are committed to helping EU nationals and their families navigate the complexities of the <strong>EU Settlement Scheme</strong>. Our expert immigration lawyers will guide you through the process of securing <strong>pre-settled status</strong>, ensuring that your application is submitted correctly and promptly.</p><p><strong>What is Pre-Settled Status?</strong></p><p><strong>Pre-settled status</strong> allows EU nationals (and their family members) to remain in the UK for up to <strong>5 years</strong> if they do not yet meet the criteria for <strong>settled status</strong>. It is part of the <strong>EU Settlement Scheme</strong> and is a way for you to continue living, working, and studying in the UK while you build up your residence record to qualify for settled status.</p><p><strong>Who Can Apply for Pre-Settled Status?</strong></p><p>You may be eligible for <strong>pre-settled status</strong> if you:</p><ul><li><strong>Are an EU, EEA, or Swiss citizen</strong> who has lived in the UK for less than 5 years.</li><li><strong>Are a family member of an EU, EEA, or Swiss citizen</strong> (this includes spouses, children, and extended family members).</li><li><strong>Arrived in the UK before 31 December 2020</strong> and have lived in the country continuously since then, even if only for a short time.</li></ul><p><strong>Benefits of Pre-Settled Status</strong></p><ul><li><strong>Stay in the UK</strong>: Pre-settled status allows you to live and work in the UK for 5 years.</li><li><strong>Access to Services</strong>: You will have access to healthcare, benefits, and public services just like any other UK resident.</li><li><strong>Pathway to Settled Status</strong>: After living in the UK for 5 years, you can apply for <strong>settled status</strong> (permanent residence).</li><li><strong>Freedom of Movement</strong>: While you are free to travel in and out of the UK, be mindful that staying outside the UK for over 2 years could result in losing your pre-settled status.</li></ul><p><strong>How to Apply for Pre-Settled Status</strong></p><p>The application process for <strong>pre-settled status</strong> is straightforward but requires accurate documentation. Here’s how we can help you:</p><ol><li><strong>Eligibility Check</strong>: We’ll assess your situation to confirm your eligibility for pre-settled status based on your residency history in the UK.</li><li><strong>Application Submission</strong>: We will help you submit your application, ensuring that all required details and supporting documents are included, such as proof of identity and residence in the UK.</li><li><strong>Compliance with Deadlines</strong>: The deadline for applying for pre-settled status was <strong>30 June 2021</strong>, but if you missed it, there may still be a way to apply if you have reasonable grounds for not meeting the deadline.</li><li><strong>Supporting Documents</strong>: We will help you collect the necessary documents, such as proof of identity (passport, national identity card) and proof of residence (utility bills, tenancy agreements, or employment contracts).</li><li><strong>Continuous Residence Evidence</strong>: We will guide you on how to demonstrate that you have been living in the UK continuously since 31 December 2020.</li></ol><p><strong>What Happens After You Apply for Pre-Settled Status?</strong></p><p>Once your application is submitted, you will receive a response from the Home Office. If your application is successful, you will be granted <strong>pre-settled status</strong>, which will allow you to live and work in the UK for another 5 years. After this period, you can apply for <strong>settled status</strong> if you’ve resided in the UK for at least 5 years.</p><p>If your application is refused, or if there are any complications, we can provide advice and help you explore the options available to challenge the decision, whether by <strong>administrative review</strong>, <strong>appeal</strong>, or <strong>judicial review</strong>.</p><p><strong>Why Choose Lawfinity Solicitors for Your Pre-Settled Status Application?</strong></p><p>At <strong>Lawfinity Solicitors</strong>, we understand the complexities involved in securing <strong>pre-settled status</strong> and will provide the expert guidance you need to navigate the process smoothly. Our services include:</p><ul><li><strong>Personalised Advice</strong>: We offer tailored advice on your eligibility for the <strong>EU Settlement Scheme</strong>.</li><li><strong>Efficient Application Handling</strong>: We ensure your application is complete and meets all Home Office requirements.</li><li><strong>Support in Challenging Refusals</strong>: If your application is refused, we will advise you on your options and help you take further action.</li></ul><p><strong>Frequently Asked Questions (FAQs)</strong></p><ol><li><strong> What if I Missed the 30 June 2021 Deadline?</strong></li></ol><p>If you missed the deadline, you may still apply for <strong>pre-settled status</strong> if you have reasonable grounds for not applying on time. We can help you assess your case and guide you through the process.</p><ol><li><strong> Can I Apply for Pre-Settled Status if I Have Not Lived in the UK for 5 Years?</strong></li></ol><p>Yes, you can apply for <strong>pre-settled status</strong> if you have lived in the UK for any period before 31 December 2020, even if it is less than 5 years.</p><ol><li><strong> How Long Does the Application Process Take?</strong></li></ol><p>Applications typically take a few weeks to process. However, the time it takes can vary depending on the complexity of your case and whether the Home Office requires additional information.</p><ol><li><strong> Can I Work and Travel with Pre-Settled Status?</strong></li></ol><p>Yes, with <strong>pre-settled status</strong>, you are allowed to work, study, and travel freely in and out of the UK for the duration of your status (up to 5 years).</p><ol><li><strong> What Happens After I Have Pre-Settled Status?</strong></li></ol><p>Once you have lived in the UK for 5 years with <strong>pre-settled status</strong>, you can apply for <strong>settled status</strong>, which provides you with permanent residency in the UK.</p><p><strong>Contact Lawfinity Solicitors for Expert Advice on Pre-Settled Status Applications</strong></p><p>If you’re an EU national or family member and need assistance with your <strong>pre-settled status</strong> application, <strong>Lawfinity Solicitors</strong> is here to help. Our expert immigration lawyers will guide you through the application process and ensure that your case is handled professionally and efficiently.</p><p><strong>Contact us today</strong> to get started on securing your right to stay in the UK with <strong>pre-settled status</strong>.</p>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-</div>
 </div>

@@ -7,40 +7,19 @@ source_url: https://lawfinitysolicitors.com/website-terms-of-use/
 ---
 
 <div class="live-source-content">
-<div>
-<div>
-<div>
-<div>
-<div>
-<img alt="" src="https://lawfinitysolicitors.com/wp-content/uploads/2022/04/Transparent-Logo-300x300.png"/> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
-
-<div>
 <h4>WEBSITE TERMS OF USE</h4>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
 
-<div>
+ 
+
+
+
+
+
+
+
+
+
+
+
 <h6>1.ACCEPTANCE OF TERMS</h6><p>1.1. These Website Terms of Use (the “Terms”) govern your use of the website owned and operated by Lawfinity Solicitors (referred to as “Lawfinity Solicitors,” “we,” “our,” or “us”) accessible at [Website URL] (the “Website”). By accessing or using the Website, you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please refrain from using the Website.</p><h6>2.CHANGES TO TERMS</h6><p>2.1. We reserve the right to modify or amend these Terms at any time without prior notice. Any changes will be effective immediately upon posting the revised Terms on the Website. Your continued use of the Website following such changes signifies your acceptance of the updated Terms.</p><h6>3.WEBSITE ACCESS AND USE</h6><p>3.1. You must be at least [Age] years old to access or use the Website.</p><p>3.2. You are responsible for ensuring that your access to the Website and use of its content complies with all applicable laws, regulations, and these Terms.</p><p>3.3. You may not use the Website for any unlawful or prohibited purposes. Prohibited activities include, but are not limited to:</p><ul><li>Violating any applicable laws or regulations.</li><li>Infringing upon the rights of others.</li><li>Distributing malware, viruses, or any harmful software.</li><li>Attempting to gain unauthorised access to the Website or its server.</li><li>Engaging in any activity that disrupts or interferes with the Website’s operation.</li></ul><h6>4.INTELLECTUAL PROPERTY RIGHTS</h6><p>4.1. The content provided on the Website, including but not limited to text, graphics, images, logos, audio, video, software, and other materials (the “Content”), is protected by intellectual property laws, including copyright, trademark, and patent laws. Lawfinity Solicitors retains all rights, title, and interest in the Content.</p><p>4.2. You are granted a limited, non-exclusive, non-transferable, and revocable license to access and use the Website and its Content for personal, non-commercial purposes only. Any other use of the Website or its Content is strictly prohibited without prior written consent from Lawfinity Solicitors.</p><p>4.3. You may not modify, reproduce, distribute, publicly display, transmit, or create derivative works from the Content without our express written permission.</p><h6>5. USER CONTRIBUTIONS</h6><p>5.1. Lawfinity Solicitors may allow users to submit content, such as comments, feedback, or other materials (collectively, “User Contributions”), to the Website.</p><p>5.2. By submitting User Contributions, you grant Lawfinity Solicitors a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, and fully sublicensable right to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display such User Contributions in any form, media, or technology.</p><p>5.3. You are solely responsible for the User Contributions you submit, and you warrant that they do not violate any applicable laws, infringe upon any intellectual property rights, or contain harmful software.</p><h6>6.PRIVACY</h6><p>6.1. Your use of the Website is also governed by our Privacy Policy [Link to Privacy Policy]. By using the Website, you consent to the collection, use, and sharing of your information as described in the Privacy Policy.</p><h6>7.DISCLAIMERS</h6><p>7.1. The Website and its Content are provided “as is” without any warranties or representations of any kind, either express or implied. We disclaim all warranties, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.</p><p>7.2. Lawfinity Solicitors makes no representations or warranties about the accuracy, reliability, completeness, or timeliness of the Content or the results obtained from using the Website.</p><h6>8.LIMITATION OF LIABILITY</h6><p>8.1. In no event shall Lawfinity Solicitors be liable for any direct, indirect, special, incidental, consequential, or punitive damages arising out of or in connection with your use of the Website, even if advised of the possibility of such damages.</p><h6>9.INDEMNIFICATION</h6><p>9.1. You agree to indemnify and hold Lawfinity Solicitors, its officers, directors, employees, agents, and affiliates harmless from any claims, damages, losses, liabilities, and expenses (including attorneys’ fees) arising out of or related to your use of the Website, violation of these Terms, or infringement of any third-party rights.</p><h6>10.GOVERNING LAW AND JURISDICTION</h6><p>10.1. These Terms shall be governed by and construed in accordance with the laws of  England and Wales. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-</div>
 </div>
