@@ -21,19 +21,19 @@
     </div>
     <div>
       <h2>Policies</h2>
-      <a href="https://lawfinitysolicitors.com/complaint-handling-policy/">Complaint Handling Policy</a>
-      <a href="https://lawfinitysolicitors.com/data-protection-policy/">Data Protection Policy</a>
-      <a href="https://lawfinitysolicitors.com/equality-and-diversity-and-vulnerable-clients-policy/">Equality, Diversity &amp; Vulnerable Clients</a>
-      <a href="https://lawfinitysolicitors.com/fee-scale/">Fee Scale</a>
-      <a href="https://lawfinitysolicitors.com/gdpr-policy/">GDPR Policy</a>
-      <a href="https://lawfinitysolicitors.com/online-review-policy/">Online Review Policy</a>
-      <a href="https://lawfinitysolicitors.com/website-terms-of-use/">Website Terms of Use</a>
+      <a href="{{ '/complaint-handling-policy/' | relative_url }}">Complaint Handling Policy</a>
+      <a href="{{ '/data-protection-policy/' | relative_url }}">Data Protection Policy</a>
+      <a href="{{ '/equality-and-diversity-and-vulnerable-clients-policy/' | relative_url }}">Equality, Diversity &amp; Vulnerable Clients</a>
+      <a href="{{ '/fee-scale/' | relative_url }}">Fee Scale</a>
+      <a href="{{ '/gdpr-policy/' | relative_url }}">GDPR Policy</a>
+      <a href="{{ '/online-review-policy/' | relative_url }}">Online Review Policy</a>
+      <a href="{{ '/website-terms-of-use/' | relative_url }}">Website Terms of Use</a>
     </div>
   </div>
   <div class="container ls-regulation">
     <div>
       <p>Lawfinity Solicitors Limited, trading as Lawfinity Solicitors. Authorised and regulated by the Solicitors Regulation Authority. SRA number {{ site.firm.sra_number }}.</p>
-      <p>Company number {{ site.firm.company_number }}. The GitHub Pages website is a development preview; the existing WordPress site remains the live website.</p>
+      <p>Company number {{ site.firm.company_number }}. Development preview. The current WordPress website remains live.</p>
     </div>
     <div class="ls-regulatory-verification">
       {% if site.url == 'https://lawfinitysolicitors.com' or site.url == 'https://www.lawfinitysolicitors.com' %}
@@ -56,6 +56,6 @@
   </div>
   <div class="ls-footer-base"><div class="container">
     <span>© <span data-current-year>2026</span> Lawfinity Solicitors.</span>
-    <div><a href="https://lawfinitysolicitors.com/gdpr-policy/">Privacy</a><a href="https://lawfinitysolicitors.com/website-terms-of-use/">Terms</a><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a></div>
+    <div><a href="{{ '/gdpr-policy/' | relative_url }}">Privacy</a><a href="{{ '/website-terms-of-use/' | relative_url }}">Terms</a><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a></div>
   </div></div>
 </footer>

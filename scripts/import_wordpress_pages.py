@@ -157,7 +157,7 @@ def widget_fragment(widget, slugs):
 def extract(body, slugs, title):
     soup=BeautifulSoup(body,"html.parser")
     main=soup.select_one(".elementor") or soup
-    widgets=main.select(".elementor-widget")
+    widgets=[]  # Preserve full source HTML; flatten Elementor wrappers afterwards
     chunks=[]
     stopped=False
     for w in widgets:
@@ -175,6 +175,20 @@ def extract(body, slugs, title):
         cleaned=clean_fragment(fallback,slugs)
         rendered=str(cleaned)
     result=BeautifulSoup(rendered,"html.parser")
+    # Elementor layout divs are meaningless without WordPress' theme. Unwrap
+    # them while retaining every paragraph, list, link, table and heading.
+    for decorative in list(result.find_all(["div","section","span"])):
+        decorative.unwrap()
+    for image in list(result.find_all("img")):
+        if "Transparent-Logo" in image.get("src","") or not image.get("alt","").strip():
+            image.decompose()
+    # Remove the WordPress template's automated article feed, where present;
+    # the new layout supplies its own linked Insights section.
+    marker=next((h for h in result.find_all(["h2","h3","h4","h5","h6"])
+        if h.get_text(" ",strip=True).casefold().rstrip(".") in ("news feeds","news feed")),None)
+    if marker:
+        for node in list(marker.next_siblings):node.extract()
+        marker.decompose()
     # Drop empty decorative blocks and repeated top-level page title.
     for node in list(result.find_all(["p","div","span","h2","h3"])):
         if not node.get_text(" ",strip=True) and not node.find("img"):node.decompose()
