@@ -62,3 +62,31 @@
   .replica-home .services-three article:nth-child(3){min-height:235px}
   .replica-home .services-three article>a{font-size:15px}
 }
+
+/* Footer text: warm ivory on navy, with quieter ivory-grey supporting copy. */
+.ls-footer{color:#F8F3E8}
+.ls-footer-grid h2{color:#F8F3E8}
+.ls-footer-grid>div>a:not(.ls-footer-brand),
+.ls-footer-base a{color:#F8F3E8}
+.ls-footer-grid>div>a:not(.ls-footer-brand):hover,
+.ls-footer-base a:hover{color:#D3B889}
+.ls-footer-grid p,
+.ls-footer-grid address,
+.ls-regulation p,
+.ls-footer-base .container{color:#D8D5CF}
+.ls-sra-register strong{color:#F8F3E8}
+.ls-sra-register small{color:#D8D5CF}
+
+/* Small readability lift for About copy; preserve layout and text. */
+.replica-home .home-about-text p:not(.kicker){
+  font-size:14px;
+  line-height:1.82;
+}
+.replica-home .home-credentials span{
+  font-size:13px;
+  line-height:1.55;
+}
+.replica-home .home-about-text>a.understated-link{
+  font-size:14px;
+  line-height:1.5;
+}
