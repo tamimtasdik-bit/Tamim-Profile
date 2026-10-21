@@ -94,7 +94,6 @@ body_class: ls-home replica-home
     <div class="articles-three">
       {% for post in site.posts limit:3 %}
       <article>
-        <span>Immigration law · {{ post.date | date: "%-d %b %Y" }}</span>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt | strip_html | truncate: 135 }}</p>
         <a class="understated-link" href="{{ post.url | relative_url }}">Read article <span aria-hidden="true">↗</span></a>

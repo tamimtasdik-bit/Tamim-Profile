@@ -25,5 +25,5 @@ layout: default
 </section>
 <section class="related-section"><div class="container">
   <div class="articles-header"><div><p class="kicker">Resources &amp; Insight</p><h2>Recent legal articles</h2></div><a class="understated-link" href="{{ '/blogs/' | relative_url }}">All articles →</a></div>
-  <div class="articles-three">{% for post in site.posts limit:3 %}<article><span>{{ post.date | date: "%-d %b %Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncate: 120 }}</p><a class="understated-link" href="{{ post.url | relative_url }}">Read article →</a></article>{% endfor %}</div>
+  <div class="articles-three">{% for post in site.posts limit:3 %}<article><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncate: 120 }}</p><a class="understated-link" href="{{ post.url | relative_url }}">Read article →</a></article>{% endfor %}</div>
 </div></section>
