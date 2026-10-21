@@ -1,0 +1,154 @@
+
+/*
+ LAWFNITY DESKTOP EDITORIAL REFINEMENT | 2026-10-21
+ Desktop layout tightening guided by the owner's five-page Safari PDF.
+ Preserve the small-screen layout; unify the desktop grid, spacing and hierarchy.
+*/
+@media (min-width: 961px) {
+  /* Consistent content rail and restrained header proportions */
+  .container{width:min(calc(100% - 72px),1160px)}
+  .ls-header .ls-nav{min-height:96px}
+  .ls-header .ls-brand{flex-basis:240px;width:240px}
+  .ls-header .ls-brand img{max-height:86px}
+  .ls-topbar-inner{min-height:31px}
+
+  /* A single, balanced hero unit rather than two widely separated columns */
+  .lp-hero-grid{
+    grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);
+    align-items:center;
+    gap:clamp(30px,3.3vw,52px);
+    padding-top:46px;
+    padding-bottom:44px;
+  }
+  .lp-hero-copy{padding:0}
+  .lp-home .lp-hero h1{
+    font-size:clamp(54px,4.7vw,72px);
+    line-height:1.01;
+    max-width:630px;
+    margin-bottom:22px;
+  }
+  .lp-home .lp-hero-lead{font-size:17px!important;line-height:1.57;max-width:485px;margin-bottom:10px}
+  .lp-home .lp-hero-support{font-size:13px;line-height:1.7;max-width:485px}
+  .lp-home .lp-hero .lp-kicker{margin-bottom:21px}
+  .lp-hero-actions{margin-top:24px;gap:21px}
+  .lp-image-hero{height:470px;max-height:470px}
+  .lp-hero-figure figcaption{padding-top:9px;gap:8px;font-size:9px}
+  .lp-image-hero img{object-position:center 43%}
+
+  /* One concise credentials row: no duplicated claims in the hero */
+  .lp-credential-grid>div{padding:16px 15px 17px 0}
+  .lp-credential-grid>div+div{padding-left:25px}
+  .lp-credential-index{margin-bottom:3px}
+  .lp-credential-grid strong{font-size:19px}
+  .lp-credential-grid small{font-size:11px}
+  .lp-section{padding-top:68px;padding-bottom:68px}
+  .lp-home .lp-kicker{margin-bottom:14px;letter-spacing:.14em}
+
+  /* Heading, introduction and content remain on one clearly defined grid */
+  .lp-section-heading{
+    grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);
+    align-items:end;gap:36px;
+    margin-bottom:29px;
+  }
+  .lp-home .lp-section-heading h2,
+  .lp-home .lp-about h2,
+  .lp-home .lp-contact h2{
+    font-size:clamp(42px,3.6vw,56px);
+    line-height:1.08;
+  }
+  .lp-section-heading>p{font-size:13px!important;line-height:1.65!important;max-width:360px}
+  .lp-service-list article{
+    grid-template-columns:41px minmax(0,1fr) 44px;
+    gap:16px;padding:19px 0;
+  }
+  .lp-service-index{margin-top:10px}
+  .lp-home .lp-service-list h3{font-size:33px;line-height:1.07;margin-bottom:5px}
+  .lp-service-list p{font-size:12px;line-height:1.6}
+  .lp-service-arrow{width:35px;height:35px;font-size:18px}
+
+  /* Tight image and content pairing in About */
+  .lp-about-grid{
+    grid-template-columns:minmax(0,.96fr) minmax(0,1.04fr);
+    gap:45px;align-items:center;
+  }
+  .lp-image-library{height:415px}
+  .lp-image-library img{object-position:center 48%}
+  .lp-about-figure figcaption{font-size:9px;padding-top:9px;gap:6px}
+  .lp-about-copy{padding:0;max-width:none}
+  .lp-home .lp-about h2{margin-bottom:16px}
+  .lp-home .lp-about-intro{font-size:15px;line-height:1.56;margin-bottom:12px}
+  .lp-about-copy>p:not(.lp-kicker):not(.lp-about-intro){
+    font-size:12px;line-height:1.65;margin-bottom:12px;
+  }
+  .lp-about-points{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:10px;
+    margin:15px 0 10px;
+    padding-top:11px;
+  }
+  .lp-about-points span{font-size:10px;line-height:1.45}
+  .lp-about-points span:before{margin-bottom:1px}
+  .lp-about-link{margin-top:2px}
+
+  /* Three disciplined editorial article columns: no accidental tall blank cards */
+  .lp-insights-head{margin-bottom:23px}
+  .lp-insight-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .lp-insight{
+    min-height:240px;
+    padding:22px 24px 21px 0;
+  }
+  .lp-insight+.lp-insight{padding-left:24px}
+  .lp-home .lp-insight h3{
+    font-size:27px;line-height:1.09;
+    margin:12px 0 11px;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+    line-clamp:4;
+    overflow:hidden;
+  }
+  .lp-insight p{
+    font-size:11px;line-height:1.6;margin-bottom:16px;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    line-clamp:3;
+    overflow:hidden;
+  }
+  .lp-insight-meta{font-size:9px}
+  .lp-all-insights{margin-top:15px}
+
+  /* Values as a deliberate short statement rather than a giant empty panel */
+  .lp-values{padding-top:45px;padding-bottom:46px}
+  .lp-values-inner{max-width:790px}
+  .lp-home .lp-values h2{font-size:51px;line-height:1.05;margin-bottom:13px}
+  .lp-values-inner>p:not(.lp-kicker){font-size:13px;line-height:1.65}
+  .lp-values-signature{margin-top:21px;font-size:9px}
+
+  /* Compact consultation, directly preceding a tidy, legible footer */
+  .lp-contact{padding-top:48px;padding-bottom:50px}
+  .lp-contact-inner{grid-template-columns:minmax(0,1fr) auto;gap:38px;align-items:center}
+  .lp-home .lp-contact h2{font-size:46px;margin-bottom:11px}
+  .lp-contact p:not(.lp-kicker){font-size:13px;line-height:1.7;margin-bottom:0}
+  .lp-contact-inner>.lp-btn{min-width:205px}
+  .ls-footer{padding-top:45px}
+  .ls-footer-grid{grid-template-columns:1.18fr .85fr .85fr;gap:38px}
+  .ls-footer-brand{width:205px}
+  .ls-footer-brand img{height:60px}
+  .ls-footer-grid p{margin-top:13px}
+  .ls-footer-grid h2{margin:6px 0 13px}
+  .ls-footer-grid>div>a{margin-bottom:7px}
+  .ls-regulation{margin-top:25px;padding-top:15px;padding-bottom:15px}
+  .ls-footer-base .container{padding-top:13px;padding-bottom:13px}
+}
+
+/* Print and PDF export should not repeat the sticky header on later pages. */
+@media print{
+  .ls-header{position:static!important}
+  .lp-image-hero img,.lp-image-library img{
+    filter:none!important;-webkit-print-color-adjust:exact;print-color-adjust:exact
+  }
+  .lp-insight h3,.lp-insight p{-webkit-line-clamp:unset!important;line-clamp:unset!important}
+  .lp-section{break-inside:auto}
+  .lp-service-list article{break-inside:avoid}
+}
