@@ -12,4 +12,4 @@ layout: default
    {% for item in page.cards %}<article class="hub-card"><span class="service-number">{{ forloop.index }}</span><h2>{{ item.title }}</h2><p>{{ item.text }}</p><a class="understated-link" href="{{ item.url | relative_url }}">View service →</a></article>{% endfor %}
   </div>{% endif %}
 </div></section>
-{% include consultation.html %>
+{% include consultation.html %}
