@@ -42,3 +42,23 @@
 .home-about-image img{
   object-position:center center;
 }
+
+/* Simplified homepage services: no numbering, stronger descriptive links. */
+.replica-home .home-intro{margin-bottom:0}
+.replica-home .services-three article{min-height:260px}
+.replica-home .services-three article>a{
+  font-size:16px;
+  line-height:1.45;
+  font-weight:700;
+  align-items:center;
+  padding-top:20px;
+}
+.replica-home .services-three article>a span{
+  font-size:20px;
+  flex:0 0 auto;
+}
+@media(max-width:640px){
+  .replica-home .services-three article,
+  .replica-home .services-three article:nth-child(3){min-height:235px}
+  .replica-home .services-three article>a{font-size:15px}
+}
