@@ -12,7 +12,12 @@ body_class: ls-home replica-home
       <p class="home-intro">14 years of experience simplifying UK immigration — from visa applications and complex appeals to corporate sponsorship and compliance. Our approach combines careful legal analysis with clear, practical advice tailored to each client's circumstances. We work closely with individuals, families and businesses to identify the right legal strategy and guide them through each stage of the process.</p>
     </div>
     <figure class="home-hero-art">
-      <img src="{{ '/assets/images/lawfinity-legal-hero-desktop.jpg' | relative_url }}" width="770" height="941" alt="AI-generated legal-themed photograph of Lady Justice with immigration law books" fetchpriority="high">
+      {% assign new_hero = site.static_files | where: 'path', '/assets/images/01-home-hero-portrait.webp' | first %}
+      {% if new_hero %}
+      <img class="editorial-hero-image" src="{{ '/assets/images/01-home-hero-portrait.webp' | relative_url }}" width="1024" height="1536" alt="AI-generated conceptual illustration of an elegant legal library with an arched window overlooking Westminster" fetchpriority="high" decoding="async">
+      {% else %}
+      <img src="{{ '/assets/images/lawfinity-legal-hero-desktop.jpg' | relative_url }}" width="770" height="941" alt="AI-generated legal-themed illustration of Lady Justice with immigration law books" fetchpriority="high">
+      {% endif %}
       
     </figure>
   </div>
@@ -27,7 +32,12 @@ body_class: ls-home replica-home
 <section class="home-section home-about">
   <div class="container home-about-grid">
     <figure class="home-about-image">
+      {% assign new_about = site.static_files | where: 'path', '/assets/images/02-about-legal-editorial.webp' | first %}
+      {% if new_about %}
+      <img class="editorial-about-image" src="{{ '/assets/images/02-about-legal-editorial.webp' | relative_url }}" width="1672" height="941" loading="lazy" decoding="async" alt="AI-generated conceptual legal interior with a Lady Justice sculpture, law books and Westminster visible through a window">
+      {% else %}
       <img src="{{ '/assets/images/lawfinity-about-casework.webp' | relative_url }}" width="1200" height="1000" loading="lazy" alt="AI-generated still life of immigration law reference books, case papers and a fountain pen, with no people">
+      {% endif %}
       
     </figure>
     <div class="home-about-text">
@@ -51,17 +61,29 @@ body_class: ls-home replica-home
       <p>Focused advice across corporate immigration, personal immigration and complex legal challenges.</p>
     </div>
     <div class="services-three">
-      <article>
+      <article class="service-card service-card--corporate">
+        {% assign corporate_image = site.static_files | where: 'path', '/assets/images/03-corporate-immigration.webp' | first %}
+        {% if corporate_image %}
+        <figure class="service-card-image"><img src="{{ '/assets/images/03-corporate-immigration.webp' | relative_url }}" width="1200" height="840" loading="lazy" decoding="async" alt="AI-generated conceptual illustration of a contemporary corporate meeting room overlooking a city skyline"></figure>
+        {% endif %}
         <h3>Corporate Immigration Services</h3>
         <p>We help UK businesses with sponsor licence applications, Skilled Worker visas and immigration compliance, assisting employers with recruiting and retaining international talent.</p>
         <a href="{{ '/sponsor-licence-application-and-compliance/' | relative_url }}">Explore corporate services <span aria-hidden="true">↗</span></a>
       </article>
-      <article>
+      <article class="service-card service-card--private">
+        {% assign private_image = site.static_files | where: 'path', '/assets/images/04-private-immigration.webp' | first %}
+        {% if private_image %}
+        <figure class="service-card-image"><img src="{{ '/assets/images/04-private-immigration.webp' | relative_url }}" width="1100" height="900" loading="lazy" decoding="async" alt="AI-generated conceptual illustration of a globe and reference books representing international immigration guidance"></figure>
+        {% endif %}
         <h3>Personal Immigration Support</h3>
         <p>Tailored support with family, visitor, work and student visas, settlement applications and British citizenship for individuals and families.</p>
         <a href="{{ '/family-immigration/' | relative_url }}">Explore private immigration <span aria-hidden="true">↗</span></a>
       </article>
-      <article>
+      <article class="service-card service-card--appeals">
+        {% assign appeals_image = site.static_files | where: 'path', '/assets/images/05-appeals-and-reviews.webp' | first %}
+        {% if appeals_image %}
+        <figure class="service-card-image"><img src="{{ '/assets/images/05-appeals-and-reviews.webp' | relative_url }}" width="1100" height="900" loading="lazy" decoding="async" alt="AI-generated conceptual illustration of classical courthouse columns beneath the word Justice"></figure>
+        {% endif %}
         <h3>Appeals, Judicial Reviews &amp; Human Rights</h3>
         <p>Representation in immigration appeals, judicial reviews and human rights matters, including complicated refusals and challenges.</p>
         <a href="{{ '/appeals-reviews/' | relative_url }}">Explore appeals and reviews <span aria-hidden="true">↗</span></a>
