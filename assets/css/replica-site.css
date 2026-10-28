@@ -90,3 +90,142 @@
   font-size:14px;
   line-height:1.5;
 }
+
+
+/* Refined contrast: preserve ivory as the principal surface, use navy for
+   the trust strip and one featured service card. No structural changes. */
+.replica-home .home-trust{
+  background:var(--navy);
+  box-shadow:inset 0 1px 0 rgba(182,157,116,.5);
+}
+.replica-home .trust-three strong{color:var(--paper)}
+.replica-home .trust-three span{color:#D8D5CF}
+.replica-home .trust-three>div+div{
+  border-color:rgba(248,243,232,.22);
+}
+.replica-home .services-three article{
+  transition:border-color .24s ease,box-shadow .24s ease,background-color .24s ease;
+}
+.replica-home .services-three article:first-child{
+  background:var(--navy);
+  border-color:var(--navy);
+}
+.replica-home .services-three article:first-child h3{color:var(--paper)}
+.replica-home .services-three article:first-child p{color:#D8D5CF}
+.replica-home .services-three article:first-child>a{
+  color:var(--paper);
+  border-top-color:rgba(248,243,232,.22);
+}
+.replica-home .services-three article:not(:first-child){
+  box-shadow:inset 0 3px 0 var(--navy);
+}
+
+/* Hover and keyboard cues: restrained, branded, and without layout shifts. */
+.ls-desktop>a,
+.ls-desktop .ls-dropdown>summary{
+  position:relative;
+  transition:color .22s ease;
+}
+.ls-desktop>a::after,
+.ls-desktop .ls-dropdown>summary::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:-6px;
+  height:2px;
+  background:var(--sand);
+  transform:scaleX(0);
+  transform-origin:left center;
+  transition:transform .24s ease;
+  pointer-events:none;
+}
+.ls-dropdown[open]>summary{color:#866D4C}
+.ls-dropdown[open]>summary::after,
+.ls-desktop>a:focus-visible::after,
+.ls-desktop .ls-dropdown>summary:focus-visible::after{
+  transform:scaleX(1);
+}
+.ls-dropdown[open]>.ls-mega,
+.ls-dropdown[open]>.ls-resource-menu{
+  animation:lawfinity-menu-reveal .2s ease-out both;
+}
+@keyframes lawfinity-menu-reveal{
+  from{opacity:0}
+  to{opacity:1}
+}
+.ls-mega a,.ls-resource-menu a,
+.ls-mobile a,.ls-mobile summary,
+.ls-footer-grid a,.ls-footer-base a,
+.articles-three h3 a,.blog-card h2 a,
+.prose a,.breadcrumbs a,
+.understated-link,.text-link,
+.services-three a{
+  transition:color .22s ease,background-color .22s ease,text-decoration-color .22s ease;
+}
+.site-button,.btn-primary,.ls-phone-cta,.ls-menu-toggle,
+.ls-sra-register,.consultation-band .btn-light{
+  transition:background-color .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease;
+}
+.site-button span,.btn-primary span,.ls-phone-cta span,
+.understated-link span,.text-link span,
+.replica-home .services-three article>a span{
+  display:inline-block;
+  transition:transform .24s ease;
+}
+.ls-desktop a:focus-visible,.ls-desktop summary:focus-visible,
+.ls-mobile a:focus-visible,.ls-mobile summary:focus-visible,
+.site-button:focus-visible,.btn-primary:focus-visible,
+.ls-phone-cta:focus-visible,.ls-menu-toggle:focus-visible,
+.services-three a:focus-visible,.understated-link:focus-visible,
+.text-link:focus-visible,.ls-footer a:focus-visible{
+  outline:2px solid var(--sand);
+  outline-offset:4px;
+}
+@media (hover:hover) and (pointer:fine){
+  .ls-desktop>a:hover::after,
+  .ls-desktop .ls-dropdown>summary:hover::after{
+    transform:scaleX(1);
+  }
+  .ls-mega a:hover,.ls-resource-menu a:hover{
+    color:#7B6547;
+    background:rgba(31,40,57,.045);
+  }
+  .replica-home .services-three article:hover{
+    border-color:var(--sand);
+    box-shadow:0 10px 24px rgba(31,40,57,.10);
+  }
+  .replica-home .services-three article:first-child:hover{
+    box-shadow:0 10px 25px rgba(31,40,57,.19);
+  }
+  .site-button:hover,.btn-primary:hover,
+  .ls-phone-cta:hover,.ls-menu-toggle:hover,
+  .consultation-band .btn-light:hover{
+    box-shadow:0 6px 16px rgba(31,40,57,.17);
+  }
+  .ls-sra-register:hover{box-shadow:inset 0 0 0 1px var(--sand)}
+  .site-button:hover span,.btn-primary:hover span,
+  .ls-phone-cta:hover span,.understated-link:hover span,
+  .text-link:hover span,.replica-home .services-three article>a:hover span{
+    transform:translate(3px,-2px);
+  }
+  .ls-footer-grid a:hover,.ls-footer-base a:hover{text-decoration:underline;text-underline-offset:3px}
+}
+/* Touch stays tap-first; keyboard users and reduced-motion users retain cues. */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .ls-dropdown[open]>.ls-mega,.ls-dropdown[open]>.ls-resource-menu{animation:none}
+  .ls-desktop>a,.ls-desktop .ls-dropdown>summary,
+  .ls-desktop>a::after,.ls-desktop .ls-dropdown>summary::after,
+  .ls-mega a,.ls-resource-menu a,
+  .ls-mobile a,.ls-mobile summary,
+  .ls-footer-grid a,.ls-footer-base a,
+  .articles-three h3 a,.blog-card h2 a,
+  .prose a,.breadcrumbs a,.understated-link,.text-link,
+  .services-three a,.replica-home .services-three article,
+  .site-button,.btn-primary,.ls-phone-cta,.ls-menu-toggle,
+  .ls-sra-register,.consultation-band .btn-light,
+  .site-button span,.btn-primary span,.ls-phone-cta span,
+  .understated-link span,.text-link span,
+  .replica-home .services-three article>a span{
+    transition:none;
+  }
+}
